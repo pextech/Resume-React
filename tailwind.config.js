@@ -7,6 +7,10 @@ module.exports = {
       display: ['montserrat', 'sans-serif'],
       body: ['montserrat', 'sans-serif'],
     },
+    screens: {
+      xs: { min: '200px', max: '475px' },
+      xsm: { min: '400px', max: '575px' },
+    },
     extend: {
       colors: {
         primary: {

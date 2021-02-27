@@ -2,7 +2,59 @@
   background-image: url('./images/background.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
-.scrn_edit{
-  width: 220% !important;
+.editor,.logo{
+  animation: editor 3s;
+}
+.btn{
+  width: 30%;
+  height: 20px;
+  animation: transitionIn 3s;
+}
+.intro{
+  animation: intro 3s;
+}
+@keyframes intro{
+  from{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes transitionIn{
+  from{
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes editor{
+  from{
+    opacity: 0;
+    transform: translateX(70px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media only screen and (min-width:300px)  {
+  .scrn_edit{
+    width: none;
+  }
+  .btn{
+    width: 100%;
+    height: 50px;
+  }
+  *{
+    font-size: 12px;
+  }
 }
