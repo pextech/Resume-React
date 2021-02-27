@@ -1,14 +1,16 @@
 # Resume 😎🇷🇼 (React-version)
 
 ```
-Progressing Design of the web APP
+Progressing Design of the web App
 ```
 
-![Design preview for the DutyGenerator app](./src/images/background.svg)
+![Design preview for the web app](./src/images/background.svg)
 
-# Using Amazing Technologies to make this even more interesting ⚙︎ 🔧
+```
+Using Amazing Technologies to make this even more interesting ⚙︎ 🔧
+```
 
-![Design preview for the DutyGenerator app](./src/images/screen_editor.svg)
+![Design preview for the web app](./src/images/screen_editor.svg)
 
 <!-- ## How to get access to the Docker Container/Image
 
