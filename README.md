@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Resume 😎🇷🇼 (React-version)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+Progressing Design of the web APP
+```
 
-## Available Scripts
+![Design preview for the DutyGenerator app](./src/images/background.svg)
 
-In the project directory, you can run:
+# Using Amazing Technologies to make this even more interesting ⚙︎ 🔧
 
-### `yarn start`
+![Design preview for the DutyGenerator app](./src/images/screen_editor.svg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ## How to get access to the Docker Container/Image
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Go on [Dockerhub](https://hub.docker.com/) website, if you don't have an account, you will be asked to create one
 
-### `yarn test`
+- The image is accessible via this link **[fronted-Image](https://hub.docker.com/layers/138860314/pextech/dutygenfront/frontend/images/sha256-dbaa46cc1fd2355645d2aa474457a61a339441964521a9fd8bb2f381177318d5?context=explore)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- To run the image locally run the following command to pull the image  `docker push pextech/dutygenfront:frontend`
 
-### `yarn build`
+- to start the image run `docker run -it -p 8080:80 --name frontend pextech/dutygenfront:frontend` -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Installation and Environment Setup ⚙︎ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Clone the repository from [Github](https://github.com/pextech/Resume-React.git).**
 
-### `yarn eject`
+( You will need **Git** for this if you are running a Windows PC, Get it [HERE](https://git-scm.com/) )
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+git clone https://github.com/pextech/Resume-React.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**To Install all dependencies:** 🔧
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+**Now to start the app:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# Tools used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React **javascript UI library**
+- Tailwind: **css**
+- Redux: **State manager**
+- Docker: **Image/Container**
+- NGINX: **WEb container**
 
-### Analyzing the Bundle Size
+# More Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- ES6 Transpiler: **[Babel](babeljs.io)**
+<!-- - Deployment: **[Heroku](https://www.heroku.com)** and **[Netlify](https://www.netlify.com/)** -->
 
-### Making a Progressive Web App
+- Deployment : **Github-Pages**
+<!-- - link to the app: **[link](https://pextech.github.io/Front-end-dutygenerator/)** -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Contribute
 
-### Advanced Configuration
+If you ever have an idea on how you might help improve the app, you are welcome to contribute your changes to the repository, Just follow the steps below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Assumming you have the repo cloned on your PC,
 
-### Deployment
+- Pull the latest changes from the remote repo by running:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+git pull origin develop
+```
 
-### `yarn build` fails to minify
+NB: You need to be on the develop branch when you do this
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Create & switch to the new branch where you will add your changes by running:
+
+```
+git checkout -b `yournewbranchname`
+```
+
+- After adding your changes, commit and push them to create a pull request against the develop branch. I will review and merge them if they are helpful.
+
+
+# Author 
+
+` Pextech 😎🇷🇼 `
+
