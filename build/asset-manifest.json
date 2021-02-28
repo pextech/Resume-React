@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Resume-React/static/css/main.f2bc4f96.chunk.css",
+    "main.js": "/Resume-React/static/js/main.624325e0.chunk.js",
+    "main.js.map": "/Resume-React/static/js/main.624325e0.chunk.js.map",
+    "runtime-main.js": "/Resume-React/static/js/runtime-main.c6d74d88.js",
+    "runtime-main.js.map": "/Resume-React/static/js/runtime-main.c6d74d88.js.map",
+    "static/js/2.e3cdf1c5.chunk.js": "/Resume-React/static/js/2.e3cdf1c5.chunk.js",
+    "static/js/2.e3cdf1c5.chunk.js.map": "/Resume-React/static/js/2.e3cdf1c5.chunk.js.map",
+    "static/js/3.070d4ac8.chunk.js": "/Resume-React/static/js/3.070d4ac8.chunk.js",
+    "static/js/3.070d4ac8.chunk.js.map": "/Resume-React/static/js/3.070d4ac8.chunk.js.map",
+    "index.html": "/Resume-React/index.html",
+    "static/css/main.f2bc4f96.chunk.css.map": "/Resume-React/static/css/main.f2bc4f96.chunk.css.map",
+    "static/js/2.e3cdf1c5.chunk.js.LICENSE.txt": "/Resume-React/static/js/2.e3cdf1c5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Resume-React/static/media/background.688b2718.svg",
+    "static/media/discovery.ee34730c.svg": "/Resume-React/static/media/discovery.ee34730c.svg",
+    "static/media/ios.715cce0e.svg": "/Resume-React/static/media/ios.715cce0e.svg",
+    "static/media/logo3.02931325.png": "/Resume-React/static/media/logo3.02931325.png",
+    "static/media/pextech.3f097636.png": "/Resume-React/static/media/pextech.3f097636.png",
+    "static/media/screen_editor.a4534b5c.svg": "/Resume-React/static/media/screen_editor.a4534b5c.svg",
+    "static/media/stage2_phn.d3ada757.png": "/Resume-React/static/media/stage2_phn.d3ada757.png",
+    "static/media/uiux.5fb0c0d7.svg": "/Resume-React/static/media/uiux.5fb0c0d7.svg",
+    "static/media/web.a586e113.svg": "/Resume-React/static/media/web.a586e113.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6d74d88.js",
+    "static/js/2.e3cdf1c5.chunk.js",
+    "static/css/main.f2bc4f96.chunk.css",
+    "static/js/main.624325e0.chunk.js"
+  ]
+}

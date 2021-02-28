@@ -1,3 +1,8 @@
+*{
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* border: 1px solid black; */
+}
+
 .App {
   background-image: url('./images/background.svg');
   background-repeat: no-repeat;
@@ -46,10 +51,76 @@
     transform: translateX(0);
   }
 }
-@media only screen and (min-width:300px)  {
+.navbar li{
+/* text-transform: uppercase;
+font-size: 14px; */
+}
+.active{
+  font-weight: bold;
+}
+.login{
+  width: 10em;
+  height: 3.5em;
+}
+.learn{
+  width: 10em;
+  height: 3.5em;
+  margin-right: 100px;
+}
+
+.serviceBox{
+display: flex;
+flex-direction: row;
+}
+.serviceBoxText{
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.serviceBoxText p{
+  width: 50%;
+  font-size: large;
+  margin-left: 100px;
+}
+.serviceBoxText h2{
+  width: 50%;
+  font-size: xx-large;
+  margin-left: 100px;
+  justify-content: start;
+}
+.serviceBoxContainer{
+margin-right: 100px;
+}
+
+@media only screen and (min-width:200px)  {
   .scrn_edit{
     width: none;
   }
+  .humbergur{
+    margin-left: 200px;
+  }
+  .serviceBox{
+  flex-direction: column;
+    }    
+ .serviceBoxContainer{
+
+    }
+    .hold{
+      margin: 0;
+    }
+    .serviceBoxText{
+      margin-top: 0px;
+    }
+    .serviceBoxText p{
+      width: 80%;
+      font-size: large;
+      margin-left: 10px;
+    }
+    .serviceBoxText h2{
+      width: 80%;
+      font-size: xx-large;
+      margin-left: 10px;
+    }
   .btn{
     width: 100%;
     height: 50px;
@@ -57,4 +128,139 @@
   *{
     font-size: 12px;
   }
+ .hide{
+   display: none;
+ }
+ .show{
+   display: inline-block;
+ }
+ .humbergur{
+   margin-left: 100px;
+ }
+ .dropdown{
+  margin-right: 200px;
 }
+ /* .navbar{
+  margin-top: 100px;
+  margin-right: 100px;
+} */
+}
+
+
+@media only screen and (min-width:320px)  {
+  .humbergur{
+    margin-left: 200px;
+  }
+  .serviceBox{
+  flex-direction: column;
+    }    
+ .serviceBoxContainer{
+margin-right: 0;
+    }
+    .serviceBoxContainer{
+      margin-left:5px;
+          }
+    .hold{
+      margin: 0;
+      margin-right: 0;
+    }
+    .hold img{
+      padding-right: 1rem;
+    }
+    .serviceBoxText{
+      margin-top: 0px;
+    }
+    .serviceBoxText p{
+      width: 80%;
+      font-size: large;
+      margin-left: 10px;
+    }
+    .serviceBoxText h2{
+      width: 80%;
+      font-size: xx-large;
+      margin-left: 10px;
+      margin-top: 50px;
+    }
+}
+@media only screen and (min-width:500px)  {
+  .humbergur{
+    margin-left: 380px;
+  }
+  .serviceBox{
+    flex-direction: column;
+      }    
+      .serviceBoxText{
+        margin-top: 00px;
+      }
+      .serviceBoxContainer{
+        margin-left:10px;
+            }
+            .hold img{
+              padding-right: 1rem;
+            }
+            .serviceBoxContainer{
+              margin-right:0px;
+                  }
+}
+   @media only screen and (min-width:700px)  {
+  .humbergur{
+    margin-left: 500px;
+  }
+  .serviceBox{
+    flex-direction: column;
+      }    
+      .serviceBoxText{
+        margin-top: 00px;
+      }
+      .hold img{
+        padding-right: 3rem;
+      }
+      .serviceBoxContainer{
+        margin-left:150px;
+            }
+            .serviceBoxContainer{
+              margin-right:0px;
+                  }
+}
+@media only screen and (min-width:800px)  {
+  .serviceBox{
+    flex-direction: row;
+      }    
+      .hold img{
+        padding-right: 3rem;
+      }
+      .serviceBoxContainer{
+        margin-right:0px;
+            }
+  /* .navbar{
+    display: inline-block;
+  } */
+ }
+ @media only screen and (min-width:1000px)  {
+  .hide{
+    display: block;
+  }
+  .show{
+    display: none;
+  }
+  .serviceBox{
+    flex-direction: row;
+      }    
+      .serviceBoxContainer{
+        margin-right:100px;
+            }
+            .hold img{
+              padding-right: 3rem;
+            }
+            .serviceBoxText{
+              margin-top: 400px;
+              margin-left: 50px;
+              margin-bottom: 50px;
+            }
+  /* .serviceBox{
+    flex-direction: row;
+  } */
+  /* .navbar{
+    display: inline-block;
+  } */
+ }

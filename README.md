@@ -1,16 +1,16 @@
 # Resume 😎🇷🇼 (React-version)
 
 ```
-Progressing Design of the web App
+Progressive development of my resume (preview)
 ```
 
-![Design preview for the web app](./src/images/background.svg)
+![Design preview for the web app](./UI.png)
 
 ```
 Using Amazing Technologies to make this even more interesting ⚙︎ 🔧
 ```
 
-![Design preview for the web app](./src/images/screen_editor.svg)
+![Design preview for the web app](./src/images/background.svg)
 
 <!-- ## How to get access to the Docker Container/Image
 

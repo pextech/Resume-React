@@ -1,0 +1,30 @@
+<svg id="iOS" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ededed;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #495d69;
+        stroke-width: 8px;
+      }
+
+      .cls-3 {
+        fill: #495d69;
+      }
+
+      .cls-4 {
+        fill: #c1cf16;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="56" y="56" width="175" height="175" rx="87.5" ry="87.5"/>
+  <rect class="cls-2" x="26" y="26" width="174" height="174.156" rx="24" ry="24"/>
+  <rect id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-3" x="66" y="26" width="94" height="16" rx="8" ry="8"/>
+  <circle class="cls-4" cx="113.5" cy="160.5" r="19.5"/>
+</svg>

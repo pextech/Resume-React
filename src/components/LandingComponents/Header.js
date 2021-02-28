@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/logo3.png';
+import pextech from '../../images/pextech.png';
 import editor from '../../images/stage2_phn.png';
 import textEdit from '../../images/screen_editor.svg';
 // import LandingSkeleton from '../skeletons/LandingSkeleton';
@@ -10,11 +10,11 @@ function Header() {
       {/* {loading && <LandingSkeleton />} */}
 
       <div className="flex flex-row shadow-md pl-12 sm:pl-0 xs:pl-0 xsm:pl-0 justify-between">
-        <div className="m-10 p-10 xs:m-4 xs:p-0 xsm:p-0 sm:p-4 sm:m-4 xsm:m-4">
+        <div className="m-10 p-10 xs:m-4 xs:p-0 xsm:p-0 sm:p-4 sm:m-4 xsm:m-4 xsm:ml-10 xs:ml-20">
           {/* left side */}
           <div className="m-10 xs:m-10 sm:m-4 xsm:m-4">
             {/* Logo or Picture */}
-            <img src={logo} alt="pextech logo" className="logo xl:w-80 xl:h-80 ml-12 xs:w-full xs:ml-0 xs:h-1/2" />
+            <img src={pextech} alt="pextech logo" className="logo rounded-full rounded-t-none xl:w-80 xl:h-80 ml-12 xs:w-full xs:ml-0 xs:h-1/2" />
           </div>
           <div>
             <div>
@@ -31,15 +31,15 @@ function Header() {
             </div>
             <div className="xs:mb-20 xs:mt-10 flex md:flex-row xs:flex-col xsm:flex-col justify-evenly ml-12 xs:p-0 xsm:p-0 sm:p-0 sm:m-4 xsm:m-4 xs:ml-4">
               {/* buttons here */}
-              <button className="btn rounded-md text-white border-black bg-black xl:h-12 xl:w-1/2 md:w-1/2 xl:ml-10 md:ml-10 sm:ml-0 xsm:ml-0 hover:bg-gray-800" attribute="contact" type="button">Contact Me</button>
-              <button className="btn rounded-md text-white border-2 border-white xl:h-12 xl:w-1/2 md:w-1/2 sm:w-full xs:w-full ml-2  hover:bg-white hover:text-gray-800 " attribute="portfolio" type="button">Porfolio</button>
+              <button className="h-12 w-1/2 btn rounded-md text-white border-gray-700 bg-gray-700 xl:ml-10 md:ml-10 sm:ml-0 xsm:ml-0 hover:bg-gray-800" attribute="contact" type="button">Contact Me</button>
+              <button className="h-12 w-1/2 btn rounded-md text-white border-2 border-white sm:w-full xs:w-full ml-2  hover:bg-white hover:text-gray-800 " attribute="portfolio" type="button">Porfolio</button>
             </div>
           </div>
         </div>
-        <div className="editor xs:mb-10">
+        <div className="editor xs:mb-10 mr-20 mt-10">
           {/* righ side */}
 
-          <img src={textEdit} alt="editor" className="md:block xl:block srcn_edit w-full m-3 sm:hidden xs:hidden mr-4" />
+          <img src={textEdit} alt="editor" className="md:block xl:block srcn_edit w-full m-3 sm:hidden xs:hidden" />
           <img src={editor} alt="editor" className="md:block xl:block srcn_edit w-1/2 m-3 sm:hidden xs:hidden" />
 
         </div>

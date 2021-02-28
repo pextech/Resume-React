@@ -3,13 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['montserrat', 'sans-serif'],
+      sans: ['nunito', 'sans-serif'],
       display: ['montserrat', 'sans-serif'],
-      body: ['montserrat', 'sans-serif'],
+      body: ['nunito', 'sans-serif'],
     },
     screens: {
       xs: { min: '200px', max: '475px' },
-      xsm: { min: '400px', max: '575px' },
+      xsm: { min: '480px', max: '600px' },
+      xmd: { min: '1000', max: '1200px' },
     },
     extend: {
       colors: {
