@@ -1,0 +1,380 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="650" viewBox="0 0 1366 650">
+ 
+<defs>
+    <style>
+      .cls-1 {fill: #1C2834;}
+      .cls-2 {fill: #0c0d0d;}
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-26, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {fill: #18232e;}
+      .cls-14, .cls-16, .cls-18, .cls-30, .cls-31, .cls-32, .cls-4 {fill: #151f29;}
+      .cls-10, .cls-11, .cls-12, .cls-16, .cls-24, .cls-28, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {fill-rule: evenodd;}
+      .cls-4 {filter: url(#filter);}
+      .cls-5 {filter: url(#filter-2);}
+      .cls-7 {filter: url(#filter-3);}
+      .cls-8 {filter: url(#filter-4);}
+      .cls-9 {filter: url(#filter-5);}
+      .cls-10 {filter: url(#filter-6);}
+      .cls-11 {filter: url(#filter-7);}
+      .cls-12 {filter: url(#filter-8);}
+      .cls-13 {filter: url(#filter-9);}
+      .cls-14 {opacity: 0.83; filter: url(#filter-10);}
+      .cls-15, .cls-17, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-29 {fill: #1C2834;}
+      .cls-15 {filter: url(#filter-11);}
+      .cls-19 {filter: url(#filter-12);}
+      .cls-20 {filter: url(#filter-13);}
+      .cls-21 {filter: url(#filter-14);}
+      .cls-22 {filter: url(#filter-15);}
+      .cls-23 {filter: url(#filter-16);}
+      .cls-24 {filter: url(#filter-17);}
+      .cls-25 {filter: url(#filter-18);}
+      .cls-26 {filter: url(#filter-19);}
+      .cls-27, .cls-28 {fill: #1C2834;}
+      .cls-29 {filter: url(#filter-20);}
+      .cls-30 {filter: url(#filter-21);}
+      .cls-31 {filter: url(#filter-22);}
+      .cls-32 {filter: url(#filter-23);}
+    </style>
+    <filter id="filter" x="171" y="127" width="221" height="97" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.1"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="180" y="61" width="87" height="81" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="180" y="139" width="87" height="81" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="180" y="218" width="87" height="81" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-5" x="180" y="296" width="87" height="81" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-6" x="180" y="374" width="87" height="81" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-7" x="180" y="453" width="87" height="81" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-8" x="180" y="531" width="87" height="81" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-9" x="182" y="607" width="196" height="65" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="7" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.07"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-10" x="401" y="-6" width="526" height="679" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="8" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.04"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-11" x="445" y="28" width="351" height="57" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.449"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-12" x="445" y="179" width="435" height="291" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.449"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-13" x="514" y="125" width="129" height="22" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="4" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.449"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.02"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-14" x="514" y="140" width="89" height="22" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="4" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.449"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.02"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-15" x="768" y="128" width="109" height="16" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.09"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-16" x="438" y="518" width="229" height="153" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="6" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-17" x="659" y="518" width="229" height="153" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="6" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-18" x="438" y="496" width="177" height="36" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="6" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-19" x="931" y="447" width="418" height="235" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="12" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.243"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-20" x="931" y="114" width="418" height="314" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.243"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-21" x="977" y="158" width="74" height="74" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-22" x="977" y="236" width="74" height="73" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-23" x="977" y="316" width="74" height="73" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#1C2834" flood-opacity="0.06"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <g id="dashboard">
+      <rect id="dashboard_bg" class="cls-1" x="-2" width="1368" height="650"/>
+      <g id="nav_left_menu">
+        <rect class="cls-2" x="-12" width="163" height="650"/>
+        <path id="logo_placeholders" class="cls-3" d="M195,0H359a0,0,0,0,1,0,0V35a4,4,0,0,1-4,4H199a4,4,0,0,1-4-4V0A0,0,0,0,1,195,0Z"/>
+        <path id="hover" class="cls-4" d="M184.625,133.468h192.75a4,4,0,0,1,4,4v68.825a4,4,0,0,1-4,4H184.625a4,4,0,0,1-4-4V137.468A4,4,0,0,1,184.625,133.468Z">
+          <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="translateY"
+                          begin="1s"
+                          values="0 0 ; 0 75 ; 0 79 ; 0 79 ; 0 151 ; 0 156 ; 0 156 ; 0 229 ; 0 234 ; 0 234 ; 0 161 ; 0 156 ; 0 156 ; 0 5 ; 0 0 ; 0 0" 
+                          keyTimes="0 ; 0.04 ; 0.06 ; 0.20 ; 0.240 ; 0.260 ; 0.400 ; 0.440 ; 0.460 ; 0.600 ; 0.640 ; 0.660 ; 0.800 ; 0.840 ; 0.860 ; 1"
+                          dur="10s"
+                          repeatCount="indefinite"/>
+        </path>
+        <g id="menu_1" data-name="menu 1">
+          <path id="menu_1-2" data-name="menu 1" class="cls-5" d="M198.813,68.109h48.812a4,4,0,0,1,4,4v43.05a4,4,0,0,1-4,4H198.813a4,4,0,0,1-4-4V72.109A4,4,0,0,1,198.813,68.109Z"/>
+          <path class="cls-6" d="M270,82h90v4.874H270V82Z"/>
+          <rect id="Rectangle_21_copy_6" data-name="Rectangle 21 copy 6" class="cls-3" x="270.469" y="96.031" width="62" height="4.969"/>
+        </g>
+        <g id="menu_2" data-name="menu 2">
+          <path id="menu_1-3" data-name="menu 1" class="cls-7" d="M198.813,146.109h48.812a4,4,0,0,1,4,4v43.05a4,4,0,0,1-4,4H198.813a4,4,0,0,1-4-4v-43.05A4,4,0,0,1,198.813,146.109Z"/>
+          <path class="cls-6" d="M270,160h90v4.874H270V160Z"/>
+          <rect id="Rectangle_21_copy_6-2" data-name="Rectangle 21 copy 6" class="cls-3" x="270.469" y="174.031" width="62" height="4.969"/>
+        </g>
+        <g id="menu_3" data-name="menu 3">
+          <path id="menu_1-4" data-name="menu 1" class="cls-8" d="M198.813,225.109h48.812a4,4,0,0,1,4,4v43.05a4,4,0,0,1-4,4H198.813a4,4,0,0,1-4-4v-43.05A4,4,0,0,1,198.813,225.109Z"/>
+          <path class="cls-6" d="M270,239h90v4.874H270V239Z"/>
+          <rect id="Rectangle_21_copy_6-3" data-name="Rectangle 21 copy 6" class="cls-3" x="270.469" y="253.031" width="62" height="4.969"/>
+        </g>
+        <g id="menu_4" data-name="menu 4">
+          <path id="menu_1-5" data-name="menu 1" class="cls-9" d="M198.813,303.109h48.812a4,4,0,0,1,4,4v43.05a4,4,0,0,1-4,4H198.813a4,4,0,0,1-4-4v-43.05A4,4,0,0,1,198.813,303.109Z"/>
+          <path class="cls-6" d="M270,317h90v4.874H270V317Z"/>
+          <rect id="Rectangle_21_copy_6-4" data-name="Rectangle 21 copy 6" class="cls-3" x="270.469" y="331.031" width="62" height="4.969"/>
+        </g>
+        <g id="menu_5" data-name="menu 5">
+          <path id="menu_1-6" data-name="menu 1" class="cls-10" d="M198.813,381.109h48.812a4,4,0,0,1,4,4v43.05a4,4,0,0,1-4,4H198.813a4,4,0,0,1-4-4v-43.05A4,4,0,0,1,198.813,381.109Z"/>
+          <path class="cls-6" d="M270,395h90v4.874H270V395Z"/>
+          <rect id="Rectangle_21_copy_6-5" data-name="Rectangle 21 copy 6" class="cls-3" x="270.469" y="409.031" width="62" height="4.969"/>
+        </g>
+        <g id="menu_6" data-name="menu 6">
+          <path id="menu_1-7" data-name="menu 1" class="cls-11" d="M198.813,460.109h48.812a4,4,0,0,1,4,4v43.05a4,4,0,0,1-4,4H198.813a4,4,0,0,1-4-4v-43.05A4,4,0,0,1,198.813,460.109Z"/>
+          <path class="cls-6" d="M270,474h90v4.874H270V474Z"/>
+          <rect id="Rectangle_21_copy_6-6" data-name="Rectangle 21 copy 6" class="cls-3" x="270.469" y="488.031" width="62" height="4.969"/>
+        </g>
+        <g id="menu_7" data-name="menu 7">
+          <path id="menu_1-8" data-name="menu 1" class="cls-12" d="M198.813,538.109h48.812a4,4,0,0,1,4,4v43.05a4,4,0,0,1-4,4H198.813a4,4,0,0,1-4-4v-43.05A4,4,0,0,1,198.813,538.109Z"/>
+          <path class="cls-6" d="M270,552h90v4.874H270V552Z"/>
+          <rect id="Rectangle_21_copy_6-7" data-name="Rectangle 21 copy 6" class="cls-3" x="270.469" y="566.031" width="62" height="4.969"/>
+        </g>
+        <path id="box" class="cls-13" d="M200,614H359a4,4,0,0,1,4,4v32a0,0,0,0,1,0,0H196a0,0,0,0,1,0,0V618A4,4,0,0,1,200,614Z"/>
+      </g>
+      <g id="main">
+        <rect id="main_bg" class="cls-14" x="415" width="497" height="650" rx="4" ry="4"/>
+        <g id="search_bar" data-name="search bar">
+          <rect id="search_bar-2" data-name="search_bar" class="cls-15" x="452" y="34" width="336" height="42" rx="4" ry="4"/>
+          <path id="Rounded_Rectangle_4" data-name="Rounded Rectangle 4" class="cls-16" d="M470.316,52.485h75.806a2.6,2.6,0,0,1,2.6,2.6v0.023a2.6,2.6,0,0,1-2.6,2.6H470.316a2.6,2.6,0,0,1-2.6-2.6V55.082A2.6,2.6,0,0,1,470.316,52.485Zm300.075-3.093a5.437,5.437,0,1,1-5.516,5.436A5.476,5.476,0,0,1,770.391,49.392Z">
+            <nimateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="scale"
+                          values="1 1 ; 1.2 1 ; 1.4 1 ; 1.4 1 ; 1 1 "
+                          keyTimes="0 ; 0.3 ; 0.5 ; 0.8 ; 1"
+                          dur="5s"
+                          repeatCount="indefinite"/>
+          </path>
+        </g>
+        <g id="notification">
+          <rect id="notification-2" data-name="notification" class="cls-17" x="824" y="34" width="48" height="42" rx="4" ry="4"/>
+          <circle class="cls-18" cx="847.188" cy="55.797" r="5.718"/>
+        </g>
+        <g id="content_1" data-name="content 1">
+          <rect id="box_" data-name="box " class="cls-19" x="452" y="183" width="420" height="276" rx="4" ry="4">
+            <nimateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="scale"
+                          begin="0.5s"
+                          values="1 1.1 ;1 1.05 ;1 1 ;1 1.05; 1 1.1" 
+                          keyTimes="0 ; 0.25 ; 0.5; 0.75; 1"
+                          dur="3s"
+                          repeatCount="indefinite"/>
+          </rect>
+          <g id="titles_1" data-name="titles 1">
+            <rect id="text_1" data-name="text 1" class="cls-20" x="521" y="128" width="114" height="7">
+              <nimateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="scale"
+                          begin="0.5s"
+                          values="1 1.1 ;1 1.05 ;1 1 ;1 1.05; 1 1.1" 
+                          keyTimes="0 ; 0.25 ; 0.5; 0.75; 1"
+                          dur="3s"
+                          repeatCount="indefinite"/>
+            </rect>
+            <rect id="text_1_copy" data-name="text 1 copy" class="cls-21" x="521" y="143" width="73.813" height="7">
+              <nimateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="scale"
+                          begin="0.5s"
+                          values="1 1.1 ;1 1.05 ;1 1 ;1 1.05; 1 1.1" 
+                          keyTimes="0 ; 0.25 ; 0.5; 0.75; 1"
+                          dur="3s"
+                          repeatCount="indefinite"/>
+            </rect>
+            <circle class="cls-17" cx="481" cy="139" r="28">
+              <nimateTransform attributeName="ransform"
+                          attributeType="XML"
+                          type="scale"
+                          begin="0.5s"
+                          values="1 1.1 ;1 1.05 ;1 1 ;1 1.05; 1 1.1" 
+                          keyTimes="0 ; 0.25 ; 0.5; 0.75; 1"
+                          dur="3s"
+                          repeatCount="indefinite"/>
+            </circle>
+            <rect id="text_2" data-name="text 2" class="cls-22" x="771" y="128" width="102" height="7">
+              <nimateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="scale"
+                          begin="0.5s"
+                          values="1 1.1 ;1 1.05 ;1 1 ;1 1.05; 1 1.1" 
+                          keyTimes="0 ; 0.25 ; 0.5; 0.75; 1"
+                          dur="3s"
+                          repeatCount="indefinite"/>
+            </rect>
+          </g>
+        </g>
+        <g id="content_2" data-name="content 2">
+          <path id="box_2" data-name="box 2" class="cls-23" d="M456,526H647.375a4,4,0,0,1,4,4V650a0,0,0,0,1,0,0H452a0,0,0,0,1,0,0V530A4,4,0,0,1,456,526Z"/>
+          <path id="box_3" data-name="box 3" class="cls-24" d="M677.621,526H869a4,4,0,0,1,4,4V650H673.621V530A4,4,0,0,1,677.621,526Z"/>
+          <rect id="text_3" data-name="text 3" class="cls-25" x="452" y="504" width="148" height="7"/>
+        </g>
+      </g>
+      <g id="right_menu">
+        <g id="box_right_2">
+          <rect id="Rounded_Rectangle_536" data-name="Rounded Rectangle 536" class="cls-26" x="950" y="454" width="379" height="196" rx="4" ry="4"/>
+          <g id="text">
+            <rect id="Rounded_Rectangle_537" data-name="Rounded Rectangle 537" class="cls-27" x="988" y="551" width="308" height="6"/>
+            <rect id="Rounded_Rectangle_537-2" data-name="Rounded Rectangle 537" class="cls-27" x="988" y="566" width="308" height="6"/>
+            <rect id="Rounded_Rectangle_537-3" data-name="Rounded Rectangle 537" class="cls-27" x="988" y="583" width="308" height="6"/>
+            <rect id="Rounded_Rectangle_537_copy" data-name="Rounded Rectangle 537 copy" class="cls-27" x="988" y="600" width="308" height="6"/>
+            <rect id="Rounded_Rectangle_537_copy-2" data-name="Rounded Rectangle 537 copy" class="cls-27" x="988" y="617" width="297" height="6"/>
+            <path id="Rounded_Rectangle_537-4" data-name="Rounded Rectangle 537" class="cls-28" d="M988,512h214.1v6H988v-6Z"/>
+            <rect id="Rounded_Rectangle_537-5" data-name="Rounded Rectangle 537" class="cls-27" x="988" y="496" width="308" height="6"/>
+          </g>
+        </g>
+        <rect id="Rounded_Rectangle_536-2" data-name="Rounded Rectangle 536" class="cls-29" x="950" y="133" width="379" height="275" rx="4" ry="4"/>
+        <g id="user_profile">
+          <g id="notification_copy" data-name="notification copy">
+            <rect id="notification-3" data-name="notification" class="cls-3" x="1246" y="168" width="50" height="50" rx="4" ry="4"/>
+          </g>
+          <g id="user_profile-2" data-name="user_profile">
+            <circle class="cls-30" cx="1013.11" cy="193.109" r="25.11"/>
+            <path id="Rounded_Rectangle_528_copy" data-name="Rounded Rectangle 528 copy" class="cls-16" d="M1057,199.792h72.46V207H1057v-7.208Z"/>
+            <path id="Rounded_Rectangle_528_copy_2" data-name="Rounded Rectangle 528 copy 2" class="cls-16" d="M1057,181h84v7.208h-84V181Z"/>
+          </g>
+        </g>
+        <g id="user_profile-3" data-name="user_profile">
+          <g id="notification_copy-2" data-name="notification copy">
+            <rect id="notification-4" data-name="notification" class="cls-3" x="1246" y="246" width="50" height="49.875" rx="4" ry="4"/>
+          </g>
+          <g id="user_profile-4" data-name="user_profile">
+            <circle class="cls-31" cx="1013.11" cy="271.047" r="25.11"/>
+            <path id="Rounded_Rectangle_528_copy-2" data-name="Rounded Rectangle 528 copy" class="cls-16" d="M1057,277.7h72.47v7.2H1057v-7.2Z"/>
+            <path id="Rounded_Rectangle_528_copy_2-2" data-name="Rounded Rectangle 528 copy 2" class="cls-16" d="M1057,258.968h84v7.2h-84v-7.2Z"/>
+          </g>
+        </g>
+        <g id="user_profile_copy" data-name="user_profile copy">
+          <g id="notification_copy-3" data-name="notification copy">
+            <rect id="notification-5" data-name="notification" class="cls-3" x="1246" y="326" width="50" height="49.875" rx="4" ry="4"/>
+          </g>
+          <g id="user_profile-5" data-name="user_profile">
+            <circle class="cls-32" cx="1013.11" cy="351.047" r="25.11"/>
+            <path id="Rounded_Rectangle_528_copy-3" data-name="Rounded Rectangle 528 copy" class="cls-16" d="M1057,357.7h72.47v7.2H1057v-7.2Z"/>
+            <path id="Rounded_Rectangle_528_copy_2-3" data-name="Rounded Rectangle 528 copy 2" class="cls-16" d="M1057,338.968h84v7.2h-84v-7.2Z"/>
+          </g>
+        </g>
+      </g>
+      <path id="Rounded_Rectangle_538" data-name="Rounded Rectangle 538" class="cls-6" d="M954,34h63.14a4.006,4.006,0,0,1,4,4V91a4.006,4.006,0,0,1-4,4H954a4,4,0,0,1-4-4V38A4,4,0,0,1,954,34Z"/>
+      <path id="Rounded_Rectangle_538_copy" data-name="Rounded Rectangle 538 copy" class="cls-6" d="M1056.62,34h63.14a4,4,0,0,1,4,4V91a4,4,0,0,1-4,4h-63.14a4,4,0,0,1-4-4V38A4,4,0,0,1,1056.62,34Z"/>
+      <path id="Rounded_Rectangle_538_copy_2" data-name="Rounded Rectangle 538 copy 2" class="cls-6" d="M1159.24,34h63.14a4,4,0,0,1,4,4V91a4,4,0,0,1-4,4h-63.14a4,4,0,0,1-4-4V38A4,4,0,0,1,1159.24,34Z"/>
+      <path id="Rounded_Rectangle_538_copy_3" data-name="Rounded Rectangle 538 copy 3" class="cls-6" d="M1261.86,34H1325a4,4,0,0,1,4,4V91a4,4,0,0,1-4,4h-63.14a4.006,4.006,0,0,1-4-4V38A4.006,4.006,0,0,1,1261.86,34Z"/>
+    </g>
+  </g>
+</svg>
