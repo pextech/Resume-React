@@ -11,7 +11,7 @@ function Service() {
       <div className="text-center serviceBoxText">
         {/* left intro side */}
         <h2 className="text-gray-800 font-bold text-7xl">SERVICES I OFFER</h2>
-        <p className="text-center w-1/3 mt-10 text-gray-700">
+        <p className="text-center w-1/3 p-4 ml-4 mt-10 text-gray-700">
           Discover My very high-quality and finest end-to-end services waiting you, Both Web
           Mobile application Designed using UI/UX best practices.❤️‍🔥 - with love -
         </p>

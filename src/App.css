@@ -1,6 +1,7 @@
 *{
   /* font-family: Arial, Helvetica, sans-serif; */
   /* border: 1px solid black; */
+
 }
 
 .App {
@@ -15,12 +16,13 @@
 .btn{
   width: 30%;
   height: 20px;
+  margin-top: 20px;
   animation: transitionIn 3s;
 }
 .intro{
   animation: intro 3s;
 }
-@keyframes intro{
+/* @keyframes intro{
   from{
     opacity: 0;
     transform: translateY(50px);
@@ -50,7 +52,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 .navbar li{
 /* text-transform: uppercase;
 font-size: 14px; */
@@ -80,7 +82,7 @@ flex-direction: row;
 .serviceBoxText p{
   width: 50%;
   font-size: large;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 .serviceBoxText h2{
   width: 50%;
@@ -169,17 +171,24 @@ margin-right: 0;
     }
     .serviceBoxText{
       margin-top: 0px;
+      margin-left: 0px;
+      padding-left: 00px;
     }
     .serviceBoxText p{
-      width: 80%;
+      width: 100%;
       font-size: large;
-      margin-left: 10px;
+      margin-left: 0px;
     }
     .serviceBoxText h2{
       width: 80%;
       font-size: xx-large;
-      margin-left: 10px;
+      margin-left: 30px;
       margin-top: 50px;
+    }
+    .learn{
+      width: 10em;
+      height: 3.5em;
+      margin-right: 0px;
     }
 }
 @media only screen and (min-width:500px)  {
@@ -189,17 +198,24 @@ margin-right: 0;
   .serviceBox{
     flex-direction: column;
       }    
-      .serviceBoxText{
-        margin-top: 00px;
+      .learn{
+        width: 10em;
+        height: 3.5em;
+        margin-right: 50px;
       }
       .serviceBoxContainer{
-        margin-left:10px;
+        margin-left:0px;
             }
             .hold img{
               padding-right: 1rem;
             }
             .serviceBoxContainer{
               margin-right:0px;
+                  }
+                  .serviceBoxText p{
+                    width: 80%;
+                    font-size: large;
+                    margin-left: 0px;
                   }
 }
    @media only screen and (min-width:700px)  {
@@ -209,29 +225,42 @@ margin-right: 0;
   .serviceBox{
     flex-direction: column;
       }    
-      .serviceBoxText{
-        margin-top: 00px;
+      .learn{
+        width: 10em;
+        height: 3.5em;
+        margin-right: 50px;
       }
       .hold img{
         padding-right: 3rem;
       }
       .serviceBoxContainer{
-        margin-left:150px;
+        margin-left:30px;
             }
             .serviceBoxContainer{
               margin-right:0px;
                   }
+                  .serviceBoxText p{
+                    width: 80%;
+                    font-size: large;
+                    margin-left: 0px;
+                  }
 }
 @media only screen and (min-width:800px)  {
   .serviceBox{
-    flex-direction: row;
-      }    
+    flex-direction: column;
+      }      
       .hold img{
         padding-right: 3rem;
       }
       .serviceBoxContainer{
-        margin-right:0px;
+        margin-right:20px;
             }
+            .serviceBoxText p{
+              width: 80%;
+              font-size: large;
+              margin-left: 20px;
+            }
+            
   /* .navbar{
     display: inline-block;
   } */
@@ -256,6 +285,11 @@ margin-right: 0;
               margin-top: 400px;
               margin-left: 50px;
               margin-bottom: 50px;
+            }
+            .serviceBoxText p{
+              width: 80%;
+              font-size: large;
+              margin-left: 0px;
             }
   /* .serviceBox{
     flex-direction: row;
