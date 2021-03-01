@@ -16,28 +16,28 @@ function Service() {
           Mobile application Designed using UI/UX best practices.❤️‍🔥 - with love -
         </p>
         <Link to="/">
-          <button type="button" className="mt-10 text-2xl rounded-md learn text-white border-gray-700 bg-gray-700  hover:bg-gray-800">Learn More</button>
+          <button type="button" className="mt-10 text-2xl hover:shadow-2xl rounded-md learn text-white border-gray-700 bg-gray-700  hover:bg-gray-800">Learn More</button>
         </Link>
 
       </div>
       <div className="flex flex-col w-11/12 text-center serviceBoxContainer">
         {/* right side */}
         <div className="flex flex-row small">
-          <div className="bg-white shadow-md text-center hold flex flex-col">
+          <div className="bg-white shadow-md text-center hold flex flex-col hover:shadow-2xl">
             <img src={UI} alt="UI/UX" className="w-1/2 m-40 xs:mr-28 xs:m-28 xs:pr-8" />
             <p className="text-2xl text-center mb-20 xs:mb-10">UI & UX (Design)</p>
           </div>
-          <div className=" flex flex-col text-center hold ">
+          <div className=" flex flex-col text-center hold hover:shadow-2xl">
             <img src={ios} alt="mobile" className="w-1/2 m-40  xs:mr-28 xs:m-28 xs:pr-8" />
             <p className="text-2xl text-center mb-20">Mobile Applications</p>
           </div>
         </div>
         <div className="flex flex-row small">
-          <div className=" flex flex-col text-center hold ">
+          <div className=" flex flex-col text-center hold hover:shadow-2xl ">
             <img src={Web} alt="web" className="w-1/2  m-40  xs:mr-28 xs:m-28 xs:pr-8" />
             <p className="text-2xl text-center mb-20">Web Applications (websites)</p>
           </div>
-          <div className="bg-white shadow-md text-center hold flex flex-col">
+          <div className="bg-white shadow-md text-center hold flex flex-col hover:shadow-2xl">
             <img src={discover} alt="Discovery" className="w-1/2 m-40  xs:mr-28 xs:m-28 xs:pr-8" />
             <p className="text-2xl text-center mb-20">Project discovery</p>
           </div>

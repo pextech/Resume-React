@@ -30,13 +30,13 @@ function Navbar() {
       <div className="flex flex-row mr-11 hide xmd:hidden xs:flex-col xsm:flex-col">
         {/* right nav side */}
         <ul className="flex flex-row navbar xs:flex-col xsm:flex-col">
-          <Link to="/"><li className="active hover:text-primary-100 text-gray-800 m-4 text-xl p-4">Home</li></Link>
-          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-xl p-4">About</li></Link>
-          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-xl p-4">Service</li></Link>
-          <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-xl p-4">Portfolio</li></Link>
-          <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-xl p-4">Contact</li></Link>
-          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-xl p-4">Blog</li></Link>
-          <button type="button" className="p-5 text-2xl mt-1 login rounded-md text-white border-gray-700 bg-gray-700  hover:bg-gray-800">Login</button>
+          <Link to="/"><li className="active hover:text-primary-100 text-gray-800 m-4 text-md p-4">Home</li></Link>
+          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">About</li></Link>
+          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Service</li></Link>
+          <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Portfolio</li></Link>
+          <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Contact</li></Link>
+          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Blog</li></Link>
+          <button type="button" className="p-2 text-md mt-6 login rounded-md text-white border-gray-700 bg-gray-700  hover:bg-gray-800 hover:shadow-2xl">Login</button>
         </ul>
       </div>
     </div>

@@ -15,14 +15,14 @@
 }
 .btn{
   width: 30%;
-  height: 20px;
+  height: 10px;
   margin-top: 20px;
   animation: transitionIn 3s;
 }
 .intro{
   animation: intro 3s;
 }
-/* @keyframes intro{
+@keyframes intro{
   from{
     opacity: 0;
     transform: translateY(50px);
@@ -52,7 +52,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-} */
+}
 .navbar li{
 /* text-transform: uppercase;
 font-size: 14px; */
@@ -62,7 +62,8 @@ font-size: 14px; */
 }
 .login{
   width: 10em;
-  height: 3.5em;
+  height: 2.5em;
+
 }
 .learn{
   width: 10em;
@@ -242,7 +243,7 @@ margin-right: 0;
                   .serviceBoxText p{
                     width: 80%;
                     font-size: large;
-                    margin-left: 0px;
+                    margin-left: 40px;
                   }
 }
 @media only screen and (min-width:800px)  {
@@ -258,7 +259,7 @@ margin-right: 0;
             .serviceBoxText p{
               width: 80%;
               font-size: large;
-              margin-left: 20px;
+              margin-left: 30px;
             }
             
   /* .navbar{

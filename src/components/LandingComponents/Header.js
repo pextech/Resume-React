@@ -9,8 +9,8 @@ function Header() {
     <>
       {/* {loading && <LandingSkeleton />} */}
 
-      <div className="flex flex-row shadow-md pl-12 sm:pl-0 xs:pl-0 xsm:pl-0 justify-between">
-        <div className="m-10 p-10 xs:m-4 xs:p-0 xsm:p-0 sm:p-4 sm:m-4 xsm:m-4 xsm:ml-10 xs:ml-20">
+      <div className="flex flex-row shadow-md pl-12 sm:pl-0 xs:pl-0 xsm:pl-0 justify-between header">
+        <div className="m-10 p-10 xs:m-4 xs:p-0 xsm:p-0 sm:p-4 sm:m-4 xsm:m-4 xsm:ml-10 xs:ml-28">
           {/* left side */}
           <div className="m-10 xs:m-10 sm:m-4 xsm:m-4">
             {/* Logo or Picture */}
