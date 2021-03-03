@@ -13,7 +13,7 @@ function Navbar() {
   //   setisOpen(!isOpen);
   // }
   return (
-    <div className="flex flex-row justify-between bg-white shadow-lg p-5 sticky top-0 ...">
+    <div className="flex flex-row justify-between bg-white shadow-lg p-2 sticky top-0 ...">
       <div className="flex flex-row justify-between">
         <div>
           {/* left logo side */}
@@ -36,7 +36,7 @@ function Navbar() {
           <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Portfolio</li></Link>
           <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Contact</li></Link>
           <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Blog</li></Link>
-          <button type="button" className="p-2 text-md mt-6 login rounded-md text-white border-gray-700 bg-gray-700  hover:bg-gray-800 hover:shadow-2xl">Login</button>
+          <button type="button" className="p-2 text-md mt-6 login rounded-md text-white border-gray-900 bg-gray-900  hover:bg-gray-700 hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">Login</button>
         </ul>
       </div>
     </div>

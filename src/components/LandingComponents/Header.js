@@ -31,12 +31,12 @@ function Header() {
             </div>
             <div className="xs:mb-20 xs:mt-10 flex md:flex-row xs:flex-col xsm:flex-col justify-evenly ml-12 xs:p-0 xsm:p-0 sm:p-0 sm:m-4 xsm:m-4 xs:ml-4">
               {/* buttons here */}
-              <button className="h-12 w-1/2 btn rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 md:ml-10 sm:ml-0 xsm:ml-0 hover:bg-gray-800" attribute="contact" type="button">Contact Me</button>
-              <button className="h-12 w-1/2 btn rounded-sm text-white border-2 border-white sm:w-full xs:w-full ml-2  hover:bg-white hover:text-gray-800 " attribute="portfolio" type="button">Porfolio</button>
+              <button className="h-12 w-1/2 btn rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Contact Me</button>
+              <button className="h-12 w-1/2 btn rounded-sm text-white border-2 border-white sm:w-full xs:w-full ml-2 hover:bg-white hover:text-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="portfolio" type="button">Porfolio</button>
             </div>
           </div>
         </div>
-        <div className="editor xs:mb-10 mr-20 mt-10">
+        <div className="editor xs:mb-10 mt-10">
           {/* righ side */}
 
           <img src={textEdit} alt="editor" className="md:block xl:block srcn_edit w-full m-3 sm:hidden xs:hidden" />
