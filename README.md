@@ -23,7 +23,7 @@ Using Amazing Technologies to make this even more interesting ⚙︎ 🔧
 - to start the image run `docker run -it -p 8080:80 --name frontend pextech/dutygenfront:frontend` -->
 ## hosted version of the application
 
-If you want to have a look on the hosted version of the app click **[HERE](https://pextech-resume.netlify.app/)**
+If you want to have a look on the hosted version of the app click **[HERE](https://pextech.github.io/Resume-React/)**
 
 
 # Installation and Environment Setup ⚙︎ 
