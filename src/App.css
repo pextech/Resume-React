@@ -7,6 +7,19 @@
 .App {
 
 }
+.arrow{
+  animation: arrow 3s infinite;
+}
+@keyframes arrow {
+  from{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .aboutContainer{
   flex-direction: row;
     }   
@@ -74,7 +87,6 @@ font-size: 14px; */
 .learn{
   width: 10em;
   height: 3.5em;
-  margin-right: 100px;
 }
 
 .serviceBox{
@@ -86,21 +98,6 @@ flex-direction: row;
   margin-left: 50px;
   margin-bottom: 50px;
 }
-.serviceBoxText p{
-  width: 50%;
-  font-size: large;
-  margin-left: 120px;
-}
-.serviceBoxText h2{
-  width: 50%;
-  font-size: xx-large;
-  margin-left: 100px;
-  justify-content: start;
-}
-.serviceBoxContainer{
-margin-right: 100px;
-}
-
 @media only screen and (min-width:200px)  {
   .scrn_edit{
     width: none;
@@ -120,24 +117,12 @@ margin-right: 100px;
     /* .about{
       flex-direction: column;
         }    */
- .serviceBoxContainer{
-
-    }
     .hold{
       margin: 0;
     }
     .serviceBoxText{
       margin-top: 0px;
-    }
-    .serviceBoxText p{
       width: 80%;
-      font-size: large;
-      margin-left: 10px;
-    }
-    .serviceBoxText h2{
-      width: 80%;
-      font-size: xx-large;
-      margin-left: 10px;
     }
   .btn{
     width: 100%;
@@ -175,12 +160,6 @@ margin-right: 100px;
   .serviceBox{
   flex-direction: column;
     }    
- .serviceBoxContainer{
-margin-right: 0;
-    }
-    .serviceBoxContainer{
-      margin-left:5px;
-          }
     .hold{
       margin: 0;
       margin-right: 0;
@@ -192,22 +171,12 @@ margin-right: 0;
       margin-top: 0px;
       margin-left: 0px;
       padding-left: 00px;
-    }
-    .serviceBoxText p{
-      width: 100%;
-      font-size: large;
-      margin-left: 0px;
-    }
-    .serviceBoxText h2{
       width: 80%;
-      font-size: xx-large;
-      margin-left: 30px;
-      margin-top: 50px;
+      margin-left: 50px;
     }
     .learn{
       width: 10em;
       height: 3.5em;
-      margin-right: 0px;
     }
 }
 @media only screen and (min-width:500px)  {
@@ -223,22 +192,11 @@ margin-right: 0;
       .learn{
         width: 10em;
         height: 3.5em;
-        margin-right: 50px;
       }
-      .serviceBoxContainer{
-        margin-left:0px;
-            }
             .hold img{
               padding-right: 1rem;
             }
-            .serviceBoxContainer{
-              margin-right:0px;
-                  }
-                  .serviceBoxText p{
-                    width: 80%;
-                    font-size: large;
-                    margin-left: 0px;
-                  }
+            
 }
    @media only screen and (min-width:700px)  {
   .humbergur{
@@ -253,22 +211,14 @@ margin-right: 0;
       .learn{
         width: 10em;
         height: 3.5em;
-        margin-right: 50px;
       }
       .hold img{
         padding-right: 3rem;
       }
       .serviceBoxContainer{
-        margin-left:30px;
-            }
-            .serviceBoxContainer{
-              margin-right:0px;
-                  }
-                  .serviceBoxText p{
-                    width: 80%;
-                    font-size: large;
-                    margin-left: 40px;
-                  }
+        margin-left: 0px;
+        margin-right: 0px;
+      }
 }
 @media only screen and (min-width:800px)  {
   .serviceBox{
@@ -277,17 +227,16 @@ margin-right: 0;
       .hold img{
         padding-right: 3rem;
       }
-      .serviceBoxContainer{
-        margin-right:20px;
-            }
-            .serviceBoxText p{
-              width: 80%;
-              font-size: large;
-              margin-left: 30px;
-            }
             .aboutContainer{
               flex-direction: row;
                 } 
+                .serviceBoxContainer{
+                  margin-left: 0px;
+                  margin-right: 0px;
+                }
+                .small{
+                  margin-left: 120px;
+                }
             /* .about{
               flex-direction: row;
                 }    */
@@ -306,21 +255,14 @@ margin-right: 0;
   .serviceBox{
     flex-direction: row;
       }    
-      .serviceBoxContainer{
-        margin-right:100px;
-            }
             .hold img{
               padding-right: 3rem;
             }
             .serviceBoxText{
-              margin-top: 400px;
+              margin-top: 100px;
               margin-left: 50px;
               margin-bottom: 50px;
-            }
-            .serviceBoxText p{
-              width: 80%;
-              font-size: large;
-              margin-left: 0px;
+              width: 50%;
             }
             .about{
               width: 70%;
@@ -328,6 +270,10 @@ margin-right: 0;
                 .aboutContainer{
                   flex-direction: row;
                     } 
+                    .serviceBoxContainer{
+                      margin-left: 0px;
+                      margin-right: 40px;
+                    }
   /* .serviceBox{
     flex-direction: row;
   } */

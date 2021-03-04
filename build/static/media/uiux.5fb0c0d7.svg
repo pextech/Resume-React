@@ -1,0 +1,38 @@
+<svg id="uiux_copy" data-name="uiux copy" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ededed;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-width: 8px;
+      }
+
+      .cls-2 {
+        stroke: #495d69;
+      }
+
+      .cls-3 {
+        stroke: #c1cf16;
+      }
+
+      .cls-4 {
+        fill: #495d69;
+      }
+
+      .cls-5 {
+        fill: #c1cf16;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_2_copy" data-name="Rectangle 2 copy" class="cls-1" d="M91.272,55H194.728A36.272,36.272,0,0,1,231,91.272v0A139.728,139.728,0,0,1,91.272,231h0A36.272,36.272,0,0,1,55,194.728V91.272A36.272,36.272,0,0,1,91.272,55Z"/>
+  <rect id="Rectangle_1_copy_3" data-name="Rectangle 1 copy 3" class="cls-2" x="26" y="26" width="174" height="174" rx="24" ry="24"/>
+  <rect id="Rectangle_1_copy_7" data-name="Rectangle 1 copy 7" class="cls-3" x="138" y="140" width="38" height="38" rx="24" ry="24"/>
+  <rect id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-4" x="49" y="50" width="32" height="8" rx="4" ry="4"/>
+  <rect id="Rounded_Rectangle_3_copy" data-name="Rounded Rectangle 3 copy" class="cls-4" x="49" y="80" width="32" height="8" rx="4" ry="4"/>
+  <rect id="Rounded_Rectangle_3_copy_2" data-name="Rounded Rectangle 3 copy 2" class="cls-5" x="49" y="110" width="64" height="8" rx="4" ry="4"/>
+  <rect id="Rounded_Rectangle_3_copy_3" data-name="Rounded Rectangle 3 copy 3" class="cls-4" x="49" y="140" width="32" height="8" rx="4" ry="4"/>
+  <rect id="Rounded_Rectangle_3_copy_4" data-name="Rounded Rectangle 3 copy 4" class="cls-4" x="49" y="170" width="32" height="8" rx="4" ry="4"/>
+</svg>

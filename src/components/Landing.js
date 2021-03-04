@@ -2,7 +2,7 @@ import React from 'react';
 import About from './LandingComponents/About';
 import Header from './LandingComponents/Header';
 import Navbar from './LandingComponents/Navbar';
-// import Service from './LandingComponents/Service';
+import Service from './LandingComponents/Service';
 
 function Landing() {
   return (
@@ -10,7 +10,7 @@ function Landing() {
       <Header />
       <Navbar />
       <About />
-      {/* <Service /> */}
+      <Service />
     </>
   );
 }

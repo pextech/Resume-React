@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       {' '}
-      <div className="App h-100">
+      <div className="App h-100 bg-gray-100">
         <Routes />
       </div>
     </Router>

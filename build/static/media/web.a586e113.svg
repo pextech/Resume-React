@@ -1,0 +1,28 @@
+<svg id="web" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ededed;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #495d69;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 8px;
+      }
+
+      .cls-3 {
+        fill: #c1cf16;
+        stroke: #c1cf16;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_2_copy" data-name="Rectangle 2 copy" class="cls-1" x="56" y="204" width="175" height="27" rx="13.5" ry="13.5"/>
+  <rect id="Rectangle_2_copy_2" data-name="Rectangle 2 copy 2" class="cls-1" x="56" y="56" width="175" height="144" rx="24" ry="24"/>
+  <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-2" x="26" y="171" width="174" height="29" rx="14.5" ry="14.5"/>
+  <rect id="Rectangle_1_copy_3" data-name="Rectangle 1 copy 3" class="cls-2" x="26" y="26" width="174" height="141" rx="24" ry="24"/>
+  <rect id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-3" x="166" y="182" width="20" height="8" rx="4" ry="4"/>
+</svg>

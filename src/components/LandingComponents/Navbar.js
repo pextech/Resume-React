@@ -13,11 +13,11 @@ function Navbar() {
   //   setisOpen(!isOpen);
   // }
   return (
-    <div className="flex flex-row justify-between bg-white shadow-lg p-2 sticky top-0 ...">
+    <div className="flex flex-row justify-between bg-white shadow-lg p-2 sticky top-0 ... z-10">
       <div className="flex flex-row justify-between">
         <div>
           {/* left logo side */}
-          <Link to="/"><img src={logo} alt="logo" className="w-20 h-20 ml-12" /></Link>
+          <Link to="/"><img src={logo} alt="logo" className="w-20 h-20 ml-10" /></Link>
         </div>
         <div className="hidden cursor-pointer px-4 show humbergur">
           <Dropdown />

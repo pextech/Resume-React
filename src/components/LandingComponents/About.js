@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable max-len */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Skeleton from 'react-loading-skeleton';
+import ScrollAnimation from 'react-animate-on-scroll';
 import aboutme from '../../images/aboutme.png';
 import github from '../../images/github.png';
 import email from '../../images/email.png';
@@ -9,14 +11,26 @@ import facebook from '../../images/facebookb.png';
 import linkedin from '../../images/linkedinb.png';
 import twitter from '../../images/twitterb.png';
 import whatsapp from '../../images/whatsapp.png';
+import 'animate.css/animate.min.css';
 
 function About() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoaded(true);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
-    <div className="bg-gray-200 flex xl:flex-row xs:flex-col xmd:flex-col aboutContainer">
+    <div className="bg-gray-100 flex xl:flex-row xs:flex-col xmd:flex-col aboutContainer">
       <div className="xl:w-1/2 xs:w-full xmd:w-full">
         {/* left side */}
-        <img src={aboutme} alt="about me" className="h-full w-full hover:shadow-2xl" />
+        {!loaded ? <Skeleton width={600} height={800} /> : <img src={aboutme} alt="about me" className="h-full w-full hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-x-5 hover:scale-80 ..." />}
       </div>
+      {' '}
+      <ScrollAnimation animateIn="fadeIn" />
       <div className="w-1/2 p-20 xs:w-full about">
         {/* right side */}
         <div className="title">
@@ -26,6 +40,7 @@ function About() {
         </div>
         <div className="mt-20 w-full description font-light text-gray-600 editor">
           {/* desscription */}
+
           <p>
             From educating and inspiring talented and hardworking young people on their track towards this carrier.
             Philosophically, I believe there are two roles to being a software engineer. First, the facilitator. Someone who helps everyone doing their best work together
@@ -56,6 +71,9 @@ function About() {
             ,
             <a href="https://andela.com/" target="_blank" className="text-blue-500 hover:text-primary-100"> Andela </a>
             {' '}
+            ,
+            <a href="https://www.oneworldcoders.com/" target="_blank" className="text-blue-500 hover:text-primary-100"> OWC </a>
+            {' '}
             , etc ...
           </p>
           <p className="mt-4">
@@ -64,17 +82,17 @@ function About() {
         </div>
         <div className="flex flex-row mt-10">
           {/* social media */}
-          <a href="https://github.com/pextech" target="_blank"><img src={github} alt="about me" className="w-6 h-6  mr-2" /></a>
-          <a href="mailto:mcstain1639@gmail.com" target="_blank"><img src={email} alt="about me" className="w-6 h-6  mr-2" /></a>
-          <a href="https://www.linkedin.com/in/mupenzi-cedrick-10a158196" target="_blank"><img src={linkedin} alt="about me" className="w-6 h-6 mr-2" /></a>
-          <a href="https://web.facebook.com/profile.php?id=100008597651836" target="_blank"><img src={facebook} alt="about me" className="w-6 h-6 mr-2" /></a>
-          <a href="https://www.instagram.com/pextech_/" target="_blank"><img src={instagram} alt="about me" className="w-6 h-6 mr-2" /></a>
-          <a href="https://twitter.com" target="_blank"><img src={twitter} alt="about me" className="w-6 h-6 mr-2" /></a>
-          <a href="https://wa.me/250780812252text=Hey cedrick! wassup" target="_blank"><img src={whatsapp} alt="about me" className="w-6 h-6 mr-2" /></a>
+          <a href="https://github.com/pextech" target="_blank"><img src={github} alt="about me" className="w-6 h-6  mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="mailto:mcstain1639@gmail.com" target="_blank"><img src={email} alt="about me" className="w-6 h-6  mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="https://www.linkedin.com/in/mupenzi-cedrick-10a158196" target="_blank"><img src={linkedin} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="https://web.facebook.com/profile.php?id=100008597651836" target="_blank"><img src={facebook} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="https://www.instagram.com/pextech_/" target="_blank"><img src={instagram} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="https://twitter.com" target="_blank"><img src={twitter} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ... hover:shadow-xl" /></a>
+          <a href="https://wa.me/250780812252text=Hey cedrick! wassup" target="_blank"><img src={whatsapp} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
         </div>
         <div className=" mr-0 mt-20">
           {/* button */}
-          <button className="h-12 w-1/2 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Contact Me</button>
+          <button className="h-12 w-1/2 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
         </div>
       </div>
     </div>
