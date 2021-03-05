@@ -7,6 +7,12 @@
 .App {
 
 }
+.video{
+  height: 261px;
+   width: 377px; 
+   transform: matrix(1, 0, 0, 1, -3, 153); 
+   display: block;
+}
 .arrow{
   animation: arrow 3s infinite;
 }
@@ -155,6 +161,18 @@ flex-direction: row;
   font-size: 1.5rem;
   font-weight: bold;
 }
+.me-text{
+  margin-top: 50px;
+  margin-right: 40px;
+}
+.me-text p{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.me-text span{
+  font-size: 2rem;
+  font-weight: bold;
+}
  /* .navbar{
   margin-top: 100px;
   margin-right: 100px;
@@ -202,6 +220,18 @@ flex-direction: row;
       font-size: 1.5rem;
       font-weight: bold;
     }
+    .me-text{
+      margin-top: 50px;
+      margin-right: 40px;
+    }
+    .me-text p{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .me-text span{
+      font-size: 2rem;
+      font-weight: bold;
+    }
 }
 @media only screen and (min-width:500px)  {
   .humbergur{
@@ -230,6 +260,18 @@ flex-direction: row;
             }
             .sketch-text span{
               font-size: 1.5rem;
+              font-weight: bold;
+            }
+            .me-text{
+              margin-top: 140px;
+              margin-right: 40px;
+            }
+            .me-text p{
+              font-size: 3rem;
+              font-weight: bold;
+            }
+            .me-text span{
+              font-size: 3rem;
               font-weight: bold;
             }
             
@@ -267,6 +309,18 @@ flex-direction: row;
         font-size: 2rem;
         font-weight: bold;
       }
+      .me-text{
+        margin-top: 140px;
+        margin-right: 00px;
+      }
+      .me-text p{
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .me-text span{
+        font-size: 3rem;
+        font-weight: bold;
+      }
 }
 @media only screen and (min-width:800px)  {
   .serviceBox{
@@ -295,6 +349,18 @@ flex-direction: row;
                 }
                 .sketch-text span{
                   font-size: 2rem;
+                  font-weight: bold;
+                }
+                .me-text{
+                  margin-top: 140px;
+                  margin-right: 00px;
+                }
+                .me-text p{
+                  font-size: 3rem;
+                  font-weight: bold;
+                }
+                .me-text span{
+                  font-size: 3rem;
                   font-weight: bold;
                 }
             /* .about{
@@ -343,6 +409,19 @@ flex-direction: row;
                       font-weight: bold;
                     }
                     .sketch-text span{
+                      font-size: 3rem;
+                      font-weight: bold;
+                    }
+                    .me-text{
+                      margin-top: 140px;
+                      /* margin-right: 300px; */
+                      width: 40%;
+                    }
+                    .me-text p{
+                      font-size: 3rem;
+                      font-weight: bold;
+                    }
+                    .me-text span{
                       font-size: 3rem;
                       font-weight: bold;
                     }

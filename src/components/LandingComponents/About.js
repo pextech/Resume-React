@@ -19,7 +19,7 @@ function About() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoaded(true);
-    }, 3000);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -27,7 +27,7 @@ function About() {
     <div className="bg-gray-100 flex xl:flex-row xs:flex-col xmd:flex-col aboutContainer">
       <div className="xl:w-1/2 xs:w-full xmd:w-full">
         {/* left side */}
-        {!loaded ? <Skeleton width={600} height={800} /> : <img src={aboutme} alt="about me" className="h-full w-full hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-x-5 hover:scale-80 ..." />}
+        {!loaded ? <Skeleton width={600} height={750} /> : <img src={aboutme} alt="about me" className="h-full w-full hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-x-5 hover:scale-80 ..." />}
       </div>
       {' '}
       <ScrollAnimation animateIn="fadeIn" />
