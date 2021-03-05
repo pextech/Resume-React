@@ -13,7 +13,7 @@ function Navbar() {
   //   setisOpen(!isOpen);
   // }
   return (
-    <div className="flex flex-row justify-between bg-white shadow-lg p-2 sticky top-0 ... z-10">
+    <div className="flex flex-row justify-between bg-white shadow-lg p-2 sticky top-0 ... z-40">
       <div className="flex flex-row justify-between">
         <div>
           {/* left logo side */}

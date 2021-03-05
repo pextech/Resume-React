@@ -143,6 +143,18 @@ flex-direction: row;
  .dropdown{
   margin-right: 200px;
 }
+.sketch-text{
+  margin-top: 10px;
+  margin-right: 00px;
+}
+.sketch-text p{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.sketch-text span{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
  /* .navbar{
   margin-top: 100px;
   margin-right: 100px;
@@ -178,6 +190,18 @@ flex-direction: row;
       width: 10em;
       height: 3.5em;
     }
+    .sketch-text{
+      margin-top: 30px;
+      margin-right: 00px;
+    }
+    .sketch-text p{
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .sketch-text span{
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
 }
 @media only screen and (min-width:500px)  {
   .humbergur{
@@ -195,6 +219,18 @@ flex-direction: row;
       }
             .hold img{
               padding-right: 1rem;
+            }
+            .sketch-text{
+              margin-top: 100px;
+              margin-right: 00px;
+            }
+            .sketch-text p{
+              font-size: 1.5rem;
+              font-weight: bold;
+            }
+            .sketch-text span{
+              font-size: 1.5rem;
+              font-weight: bold;
             }
             
 }
@@ -219,6 +255,18 @@ flex-direction: row;
         margin-left: 0px;
         margin-right: 0px;
       }
+      .sketch-text{
+        margin-top: 120px;
+        margin-right: 00px;
+      }
+      .sketch-text p{
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .sketch-text span{
+        font-size: 2rem;
+        font-weight: bold;
+      }
 }
 @media only screen and (min-width:800px)  {
   .serviceBox{
@@ -236,6 +284,18 @@ flex-direction: row;
                 }
                 .small{
                   margin-left: 120px;
+                }
+                .sketch-text{
+                  margin-top: 150px;
+                  margin-right: 00px;
+                }
+                .sketch-text p{
+                  font-size: 2rem;
+                  font-weight: bold;
+                }
+                .sketch-text span{
+                  font-size: 2rem;
+                  font-weight: bold;
                 }
             /* .about{
               flex-direction: row;
@@ -273,6 +333,18 @@ flex-direction: row;
                     .serviceBoxContainer{
                       margin-left: 0px;
                       margin-right: 40px;
+                    }
+                    .sketch-text{
+                      margin-top: 140px;
+                      margin-right: 200px;
+                    }
+                    .sketch-text p{
+                      font-size: 3rem;
+                      font-weight: bold;
+                    }
+                    .sketch-text span{
+                      font-size: 3rem;
+                      font-weight: bold;
                     }
   /* .serviceBox{
     flex-direction: row;

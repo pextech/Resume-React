@@ -3,6 +3,7 @@ import About from './LandingComponents/About';
 import Header from './LandingComponents/Header';
 import Navbar from './LandingComponents/Navbar';
 import Service from './LandingComponents/Service';
+import Sketch from './LandingComponents/Sketch';
 
 function Landing() {
   return (
@@ -10,6 +11,7 @@ function Landing() {
       <Header />
       <Navbar />
       <About />
+      <Sketch />
       <Service />
     </>
   );

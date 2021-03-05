@@ -8,7 +8,7 @@ import discover from '../../images/discovery.svg';
 
 function Service() {
   return (
-    <div className="bg-gray-100 serviceBox m-0 justify-between mt-10">
+    <div className="bg-gray-100 serviceBox m-0 justify-between mt-10 z-30">
       <div className="serviceBoxText">
         {/* left intro side */}
         <p className="text-gray-800 font-bold text-3xl ml-3">Services that i offer! 😃</p>
