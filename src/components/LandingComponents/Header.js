@@ -20,7 +20,7 @@ function Header() {
           {/* left side */}
           <div className="m-10 xs:m-10 sm:m-4 xsm:m-4">
             {/* Logo or Picture */}
-            <img src={pextech} alt="pextech logo" data-aos="fade-left" className="rounded-full rounded-t-none xl:w-80 xl:h-80 ml-10 xs:w-full xs:ml-0 xs:h-1/2" />
+            <img src={pextech} alt="pextech logo" data-aos="fade-up" className="rounded-full rounded-t-none xl:w-80 xl:h-80 ml-10 xs:w-full xs:ml-0 xs:h-1/2" />
           </div>
           <div>
             <div>

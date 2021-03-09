@@ -44,13 +44,13 @@ export default function Modal() {
                 {/* body */}
                 <div className="relative p-6 flex-auto">
                   <ul className="flex flex-col items-center navbar">
-                    <Link to="/"><li className="active hover:text-primary-100 text-primary-100 m-4 text-2xl p-4">Home</li></Link>
-                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4">About</li></Link>
-                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4">Service</li></Link>
-                    <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4">Portfolio</li></Link>
-                    <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4">Contact</li></Link>
-                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4">Blog</li></Link>
-                    <button type="button" className="p-5 w-10/12 text-2xl mt-1 rounded-md text-white border-black bg-black  hover:bg-primary-200">Login</button>
+                    <Link to="/"><li className="active hover:text-primary-100 text-primary-100 m-4 text-2xl p-4 font-light">Home</li></Link>
+                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">About</li></Link>
+                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">Service</li></Link>
+                    <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4 font-light">Portfolio</li></Link>
+                    <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4 font-light">Contact</li></Link>
+                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">Blog</li></Link>
+                    <button type="button" className="p-5 w-10/12 text-2xl mt-1 rounded-md font-light text-white border-black bg-black  hover:bg-primary-200">Login</button>
                   </ul>
                 </div>
                 {/* footer */}

@@ -35,7 +35,7 @@ function About() {
       </div>
       {' '}
       <ScrollAnimation animateIn="fadeIn" />
-      <div className="w-1/2 p-20 xs:w-full about" data-aos="fade-left">
+      <div className="w-1/2 p-20 xs:w-full about" data-aos="fade-up">
         {/* right side */}
         <div className="title font-light">
           {/* title */}
@@ -96,7 +96,7 @@ function About() {
         </div>
         <div className=" mr-0 mt-20">
           {/* button */}
-          <button className="h-12 w-1/2 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
+          <button className="h-12 w-full rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
         </div>
       </div>
     </div>

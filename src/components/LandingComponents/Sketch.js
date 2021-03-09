@@ -16,7 +16,7 @@ function Sketch() {
           {/* right side */}
           <img src={sketch} data-aos="zoom-in" className="w-11/12 h-full transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." alt="sketch" />
         </div>
-        <div className="sketch-text" data-aos="fade-left">
+        <div className="sketch-text" data-aos="fade-up">
           <p className="text-gray-100">
             From just
           </p>
@@ -33,7 +33,7 @@ function Sketch() {
           {/* right side */}
           <img src={final} data-aos="zoom-in" className="w-11/12 h-full transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." alt="sketch" />
         </div>
-        <div className="sketch-text" data-aos="fade-up-left">
+        <div className="sketch-text" data-aos="fade-up">
           <p className="text-gray-100">
             To Final
           </p>

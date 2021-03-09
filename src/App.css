@@ -4,8 +4,20 @@
 
 }
 
-.App {
+hr{
+  width:50%;
+  text-align:left;
+  border: 5px solid black;
+  justify-content: center;
+}
 
+.width {
+
+  width: 45%;
+  text-align: center;
+}
+.width div p{
+  text-align: center;
 }
 .video{
   height: 261px;
@@ -113,6 +125,7 @@ flex-direction: row;
       } 
   .about{
     width: 100%;
+    padding: 2rem;
   }
   .humbergur{
     margin-left: 200px;
@@ -173,6 +186,19 @@ flex-direction: row;
   font-size: 2rem;
   font-weight: bold;
 }
+.skill{
+  display: flex;
+  flex-direction: column;
+}
+.width {
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.width p {
+  font-size: 12px;
+}
  /* .navbar{
   margin-top: 100px;
   margin-right: 100px;
@@ -201,8 +227,8 @@ flex-direction: row;
       margin-top: 0px;
       margin-left: 0px;
       padding-left: 00px;
-      width: 80%;
-      margin-left: 50px;
+      width: 90%;
+      margin-left: 20px;
     }
     .learn{
       width: 10em;
@@ -231,6 +257,23 @@ flex-direction: row;
     .me-text span{
       font-size: 2rem;
       font-weight: bold;
+    }
+    .skill{
+      display: flex;
+      flex-direction: column;
+    }
+    .width {
+      margin-left: 0px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .width p {
+      font-size: 12px;
+    }
+    .about{
+      width: 100%;
+      padding: 2rem;
     }
 }
 @media only screen and (min-width:500px)  {
@@ -273,6 +316,16 @@ flex-direction: row;
             .me-text span{
               font-size: 3rem;
               font-weight: bold;
+            }
+            .skill{
+              display: flex;
+              flex-direction: column;
+            }
+            .width {
+              margin-left: 30px;
+              width: 90%;
+              text-align: center;
+              margin-bottom: 40px;
             }
             
 }
@@ -321,6 +374,16 @@ flex-direction: row;
         font-size: 3rem;
         font-weight: bold;
       }
+      .skill{
+        display: flex;
+        flex-direction: column;
+      }
+      .width {
+        margin-left: 80px;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 40px;
+      }
 }
 @media only screen and (min-width:800px)  {
   .serviceBox{
@@ -362,6 +425,16 @@ flex-direction: row;
                 .me-text span{
                   font-size: 3rem;
                   font-weight: bold;
+                }
+                .skill{
+                  display: flex;
+                  flex-direction: column;
+                }
+                .width {
+                  margin-left: 80px;
+                  width: 80%;
+                  text-align: center;
+                  margin-bottom: 40px;
                 }
             /* .about{
               flex-direction: row;
@@ -424,6 +497,15 @@ flex-direction: row;
                     .me-text span{
                       font-size: 3rem;
                       font-weight: bold;
+                    }
+                    .skill{
+                      display: flex;
+                      flex-direction: row;
+                    }
+                    .width {
+                      margin-left: 20px;
+                      width: 45%;
+                      text-align: center;
                     }
   /* .serviceBox{
     flex-direction: row;
