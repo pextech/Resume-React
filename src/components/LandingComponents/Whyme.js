@@ -18,7 +18,7 @@ function Whyme() {
   return (
     <div className="bg-gray-800">
       {' '}
-      <div className="bg-primary-200 flex flex-row justify-center mt-6 pl-4 pb-6 pr-4">
+      <div className="bg-primary-200 flex flex-row justify-center mt-6 pl-4 pb-6 xs:pb-0 pr-4">
         <div className="">
           {/* right side */}
           <img src={whyme} className="w-full h-full me scale-110 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-80 ... z-30" alt="sketch" />
@@ -33,8 +33,11 @@ function Whyme() {
             Me?
           </span>
           <div className="hide">
-            <h6 className="text-gray-200 font-light  mt-2 w-11/12">
-              As a Software Engineer I designs and develops software applications. Performs coding, debugging, testing and troubleshooting throughout the application development process, it indeed my job to put myself out of business. What I do today can be automated tomorrow.
+            <h6 className="text-gray-300 font-light  mt-2 w-11/12 ">
+              As a Software Engineer I design, develop, test, and deploy several software applications, Nothing more than changing the way software is developed, I basically strive to create purpose-driven products. My passion is solving problems and My tool of choice is programming and assisting people to
+              live with awareness, wisdom, and goodwill in our noisy but exciting (digital) world, is what I do, Besides my love for coding, I am always looking forward to share my passion for technology and mindfulness in workshops and public speeches at conferences,
+              universities, or wherever people want to talk and hear about it. What I do today can be automated tomorrow.
+              {' '}
             </h6>
             <div className="flex flex-row mt-10 p-5">
               {/* social media */}
@@ -52,9 +55,11 @@ function Whyme() {
 
         </div>
       </div>
-      <div className="show text-gray-200 font-light p-10 ">
+      <div className="show text-gray-300 font-light p-10 ">
         <h6 className="text-white font-light  mt-5">
-          As a Software Engineer I designs and develops software applications. Performs coding, debugging, testing and troubleshooting throughout the application development process, it indeed my job to put myself out of business. What I do today can be automated tomorrow.
+          As a Software Engineer I design, develop, test, and deploy several software applications, Nothing more than changing the way software is developed, I basically strive to create purpose-driven products. My passion is solving problems and My tool of choice is programming and assisting people to
+          live with awareness, wisdom, and goodwill in our noisy but exciting (digital) world, is what I do, Besides my love for coding, I am always looking forward to share my passion for technology and mindfulness in workshops and public speeches at conferences,
+          universities, or wherever people want to talk and hear about it. What I do today can be automated tomorrow.
         </h6>
         <div className="flex flex-row mt-10 justify-center">
           {/* social media */}
@@ -66,7 +71,7 @@ function Whyme() {
         </div>
         <div className=" mr-0 mt-10 flex flex-row justify-center">
           {/* button */}
-          <button className="h-12 w-1/2 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-200 hover:border-gray-200 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
+          <button className="h-12 w-1/2  rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-200 hover:border-gray-200 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
         </div>
       </div>
 

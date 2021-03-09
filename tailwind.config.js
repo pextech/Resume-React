@@ -3,9 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['nunito', 'sans-serif'],
-      display: ['nunito', 'sans-serif'],
-      body: ['nunito', 'sans-serif'],
+      sans: ['montserrat', 'sans-serif'],
+      display: ['montserrat', 'sans-serif'],
+      body: ['montserrat', 'sans-serif'],
     },
     screens: {
       xs: { min: '200px', max: '475px' },

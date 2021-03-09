@@ -43,21 +43,21 @@ function Service() {
         <div className="flex flex-row small">
           <div className="bg-white shadow-md text-center hold flex flex-col hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ...">
             <img src={UI} alt="UI/UX" className="m-10" />
-            <p className="text-center mb-20">UI & UX (Design)</p>
+            <p className="text-center mb-20 font-light">UI & UX (Design)</p>
           </div>
           <div className="bg-gray-50 flex flex-col text-center hold hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ...">
             <img src={ios} alt="mobile" className="m-10 " />
-            <p className="text-center mb-20">Mobile Applications</p>
+            <p className="text-center mb-20 font-light">Mobile Applications</p>
           </div>
         </div>
         <div className="flex lex-row small">
           <div className="bg-gray-50 flex flex-col text-center hold hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ...">
             <img src={Web} alt="web" className="m-10 " />
-            <p className="text-center mb-20">Web Applications (websites)</p>
+            <p className="text-center mb-20 font-light">Web Applications (websites)</p>
           </div>
           <div className="bg-white shadow-md text-center hold flex flex-col hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ...">
             <img src={discover} alt="Discovery" className="m-10" />
-            <p className="text-center mb-20">Project discovery</p>
+            <p className="text-center mb-20 font-light">Project discovery</p>
           </div>
         </div>
 
