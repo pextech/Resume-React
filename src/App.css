@@ -83,7 +83,7 @@
 font-size: 14px; */
 }
 .active{
-  font-weight: bold;
+  font-weight: 500;
 }
 .login{
   width: 10em;

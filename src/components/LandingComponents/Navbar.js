@@ -29,7 +29,7 @@ function Navbar() {
       </div>
       <div className="flex flex-row mr-11 hide xmd:hidden xs:flex-col xsm:flex-col">
         {/* right nav side */}
-        <ul className="flex flex-row navbar xs:flex-col xsm:flex-col">
+        <ul className="flex flex-row navbar xs:flex-col xsm:flex-col font-light">
           <Link to="/"><li className="active hover:text-primary-100 text-gray-800 m-4 text-md p-4">Home</li></Link>
           <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">About</li></Link>
           <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Service</li></Link>

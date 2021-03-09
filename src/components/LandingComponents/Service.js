@@ -1,5 +1,7 @@
 /* eslint-disable max-len */
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import UI from '../../images/uiux.svg';
 import Web from '../../images/web.svg';
@@ -7,20 +9,23 @@ import ios from '../../images/ios.svg';
 import discover from '../../images/discovery.svg';
 
 function Service() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="bg-gray-100 serviceBox m-0 justify-between mt-10 z-30">
       <div className="serviceBoxText">
         {/* left intro side */}
-        <p className="text-gray-800 font-bold text-3xl ml-3">Services that i offer! 😃</p>
-        <p className="p-4 mt-10 font-light text-gray-600">
+        <p className="text-gray-800 font-light text-3xl ml-3">Services that i offer! 😃</p>
+        <p className="p-4 mt-10 font-light text-gray-600" data-aos="fade-right">
           Discover My very high-quality and finest end-to-end services waiting you, Both Web
           and Mobile applications Designed using UI & UX best practices.❤️‍🔥 with love
         </p>
-        <p className="p-4 mt-5 font-light text-gray-600">
+        <p className="p-4 mt-5 font-light text-gray-600" data-aos="fade-right">
           I love to dig into my customers needs and propose technological solutions notably through software development , As a certified software Engineer and a natural problem solver I prioritize my customers satisfaction by focusing on the desired end result.
           In the Proffesional career that I have carried and enjoying this far, as a Software Engineer, developer, task manager, team manager, User Interface designer, graphic designer have thought me Alot about myself both professionally and personally.
         </p>
-        <p className="p-4 mt-5 font-light text-gray-600">
+        <p className="p-4 mt-5 font-light text-gray-600" data-aos="fade-right">
           I have been lucky to have worked with companies and individuals in various industries from e-commerce, advertising, healthcare to tours and travel where I did independent projects and also led teams to deliver highly scalable and performant solutions.
 
           I am always ready to pick up something new. 😋
@@ -33,7 +38,7 @@ function Service() {
         </Link>
 
       </div>
-      <div className="flex flex-col w-full text-center serviceBoxContainer">
+      <div className="flex flex-col w-full text-center serviceBoxContainer font-light">
         {/* right side */}
         <div className="flex flex-row small">
           <div className="bg-white shadow-md text-center hold flex flex-col hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ...">

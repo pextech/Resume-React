@@ -2,6 +2,7 @@
 /* eslint-disable max-len */
 import React, { useEffect, useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
+import AOS from 'aos';
 import ScrollAnimation from 'react-animate-on-scroll';
 import aboutme from '../../images/aboutme.png';
 import github from '../../images/github.png';
@@ -12,6 +13,9 @@ import linkedin from '../../images/linkedinb.png';
 import twitter from '../../images/twitterb.png';
 import whatsapp from '../../images/whatsapp.png';
 import 'animate.css/animate.min.css';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function About() {
   const [loaded, setLoaded] = useState(false);
@@ -31,12 +35,12 @@ function About() {
       </div>
       {' '}
       <ScrollAnimation animateIn="fadeIn" />
-      <div className="w-1/2 p-20 xs:w-full about">
+      <div className="w-1/2 p-20 xs:w-full about" data-aos="fade-left">
         {/* right side */}
-        <div className="title">
+        <div className="title font-light">
           {/* title */}
-          <p className="text-4xl ">Who is Cedrick Mupenzi?</p>
-          <p className="text-4xl">Discover more</p>
+          <p className="text-4xl font-light">Who is Cedrick Mupenzi?</p>
+          <p className="text-4xl font-light">Discover more</p>
         </div>
         <div className="mt-20 w-full description font-light text-gray-600 editor">
           {/* desscription */}
