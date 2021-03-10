@@ -15,10 +15,10 @@ function Header() {
     <>
       {/* {loading && <LandingSkeleton />} */}
 
-      <div className="flex flex-row shadow-md pl-12 sm:pl-0 xs:pl-0 xsm:pl-0 justify-between header">
-        <div className="m-10 p-10 xs:m-4 xs:p-0 xsm:p-0 sm:p-4 sm:m-4 xsm:m-4 xsm:ml-10 xs:ml-28">
+      <div className="flex flex-row shadow-md pl-12 sm:pl-0 xs:pl-0 xsm:pl-0 justify-between header" id="home">
+        <div className="m-10 moff p-10 xs:m-4 xs:p-0 xsm:p-0 sm:p-4 sm:m-4 xsm:m-4">
           {/* left side */}
-          <div className="m-10 xs:m-10 sm:m-4 xsm:m-4">
+          <div className="m-10 moff xs:m-10 sm:m-4 xsm:m-4">
             {/* Logo or Picture */}
             <img src={pextech} alt="pextech logo" data-aos="fade-up" className="rounded-full rounded-t-none xl:w-80 xl:h-80 ml-10 xs:w-full xs:ml-0 xs:h-1/2" />
           </div>

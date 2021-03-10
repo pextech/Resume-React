@@ -4,11 +4,41 @@
 
 }
 
+::-webkit-scrollbar-thumb {
+  background: #c1cf16;
+  border-radius: 0px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  padding: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #1C2834;
+}
+
+
 hr{
   width:50%;
   text-align:left;
   border: 5px solid black;
   justify-content: center;
+}
+
+.inp {
+  border:none;
+  background-color: #1C2834;
+  border-bottom: 1px solid #dddd;
+  padding: 5px 10px;
+  outline: none;
+}
+.inp:focus {
+  border-color: #C0CE18;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease; 
+  text-indent: -100%;
+  opacity: 1;
 }
 
 .width {
@@ -117,12 +147,18 @@ flex-direction: row;
   margin-bottom: 50px;
 }
 @media only screen and (min-width:200px)  {
+  *{
+    font-size: 12px;
+  }
   .scrn_edit{
     width: none;
   }
   .aboutContainer{
     flex-direction: column;
       } 
+  .m-off{
+    margin-left: 0px !important;
+  }
   .about{
     width: 100%;
     padding: 2rem;
@@ -198,6 +234,10 @@ flex-direction: row;
 }
 .width p {
   font-size: 12px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
 }
  /* .navbar{
   margin-top: 100px;
@@ -275,6 +315,10 @@ flex-direction: row;
       width: 100%;
       padding: 2rem;
     }
+    .contact{
+      display: flex;
+      flex-direction: column;
+    }
 }
 @media only screen and (min-width:500px)  {
   .humbergur{
@@ -326,6 +370,13 @@ flex-direction: row;
               width: 90%;
               text-align: center;
               margin-bottom: 40px;
+            }
+            .contact{
+              display: flex;
+              flex-direction: column;
+            }
+            textarea{
+              width: 80%;
             }
             
 }
@@ -384,6 +435,13 @@ flex-direction: row;
         text-align: center;
         margin-bottom: 40px;
       }
+      .contact{
+        display: flex;
+        flex-direction: column;
+      }
+      textarea{
+        width: 50%;
+      }
 }
 @media only screen and (min-width:800px)  {
   .serviceBox{
@@ -430,11 +488,29 @@ flex-direction: row;
                   display: flex;
                   flex-direction: column;
                 }
+                .contact{
+                  display: flex;
+                  flex-direction: column;
+                }
+                .contact .address{
+                  width: 80%;
+                  margin-left: 20px;
+                }
+                .contact .form{
+                  width: 50%;
+                  margin-left: 20px;
+                }
                 .width {
                   margin-left: 80px;
                   width: 80%;
                   text-align: center;
                   margin-bottom: 40px;
+                }
+                .form{
+                  width: 40%;
+                }
+                textarea{
+                  width: 90%;
                 }
             /* .about{
               flex-direction: row;
@@ -444,7 +520,7 @@ flex-direction: row;
     display: inline-block;
   } */
  }
- @media only screen and (min-width:1000px)  {
+ @media only screen and (min-width:1200px)  {
   .hide{
     display: block;
   }
@@ -506,6 +582,19 @@ flex-direction: row;
                       margin-left: 20px;
                       width: 45%;
                       text-align: center;
+                    }
+                    .contact{
+                      display: flex;
+                      flex-direction: row;
+                    }
+                    .contact .address{
+                      width: 20%;
+                    }
+                  .contact  .form{
+                      width: 30%;
+                    }
+                    textarea{
+                      width: 85%;
                     }
   /* .serviceBox{
     flex-direction: row;

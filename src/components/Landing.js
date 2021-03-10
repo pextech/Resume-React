@@ -1,5 +1,7 @@
 import React from 'react';
 import About from './LandingComponents/About';
+import Contact from './LandingComponents/Contact';
+import Footer from './LandingComponents/Footer';
 import Header from './LandingComponents/Header';
 import Navbar from './LandingComponents/Navbar';
 import Service from './LandingComponents/Service';
@@ -17,6 +19,8 @@ function Landing() {
       <Service />
       <Whyme />
       <SkillSection />
+      <Contact />
+      <Footer />
     </>
   );
 }

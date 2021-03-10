@@ -13,7 +13,7 @@ function Service() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="bg-gray-100 serviceBox m-0 justify-between mt-10 z-30">
+    <div className="bg-gray-100 serviceBox m-0 justify-between mt-10 z-30" id="service">
       <div className="serviceBoxText">
         {/* left intro side */}
         <p className="text-gray-800 font-light text-3xl ml-3">Services that i offer! 😃</p>

@@ -30,13 +30,13 @@ function Navbar() {
       <div className="flex flex-row mr-11 hide xmd:hidden xs:flex-col xsm:flex-col">
         {/* right nav side */}
         <ul className="flex flex-row navbar xs:flex-col xsm:flex-col font-light">
-          <Link to="/"><li className="active hover:text-primary-100 text-gray-800 m-4 text-md p-4">Home</li></Link>
-          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">About</li></Link>
-          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Service</li></Link>
-          <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Portfolio</li></Link>
-          <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Contact</li></Link>
+          <Link to="#home"><li className="active hover:text-primary-100 text-gray-800 m-4 text-md p-4">Home</li></Link>
+          <Link to="#about"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">About</li></Link>
+          <Link to="#service"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Service</li></Link>
+          <Link to="#portfolio"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Portfolio</li></Link>
+          <Link to="#contact"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Contact</li></Link>
           <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Blog</li></Link>
-          <button type="button" className="p-2 text-md mt-6 login rounded-md text-white border-gray-900 bg-gray-900  hover:bg-gray-700 hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">Login</button>
+          <button type="button" className="p-2 text-md mt-6 login  text-white border-gray-900 bg-primary-200  hover:bg-black hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">Login</button>
         </ul>
       </div>
     </div>

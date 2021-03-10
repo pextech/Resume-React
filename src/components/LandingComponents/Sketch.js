@@ -10,7 +10,7 @@ function Sketch() {
   }, []);
 
   return (
-    <div>
+    <div id="portfolio">
       <div className="bg-primary-200 flex flex-row justify-between p-10 sticky top-0 ... z-20">
         <div className="">
           {/* right side */}

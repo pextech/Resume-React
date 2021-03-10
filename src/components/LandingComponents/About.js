@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable max-len */
-import React, { useEffect, useState } from 'react';
-import Skeleton from 'react-loading-skeleton';
+import React from 'react';
 import AOS from 'aos';
 import ScrollAnimation from 'react-animate-on-scroll';
 import aboutme from '../../images/aboutme.png';
@@ -18,20 +17,11 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 function About() {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoaded(true);
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, []);
   return (
-    <div className="bg-gray-100 flex xl:flex-row xs:flex-col xmd:flex-col aboutContainer">
+    <div className="bg-gray-100 flex xl:flex-row xs:flex-col xmd:flex-col aboutContainer" id="about">
       <div className="xl:w-1/2 xs:w-full xmd:w-full">
         {/* left side */}
-        {!loaded ? <Skeleton width={600} height={750} /> : <img src={aboutme} alt="about me" className="h-full w-full hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-x-5 hover:scale-80 ..." />}
+        <img src={aboutme} alt="about me" className="h-full w-full hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-x-5 hover:scale-80 ..." />
       </div>
       {' '}
       <ScrollAnimation animateIn="fadeIn" />
@@ -76,7 +66,7 @@ function About() {
             <a href="https://andela.com/" target="_blank" className="text-blue-500 hover:text-primary-100"> Andela </a>
             {' '}
             ,
-            <a href="https://www.oneworldcoders.com/" target="_blank" className="text-blue-500 hover:text-primary-100"> OWC </a>
+            <a href="https://gdg.community.dev/" target="_blank" className="text-blue-500 hover:text-primary-100"> GDG </a>
             {' '}
             , etc ...
           </p>
@@ -96,7 +86,7 @@ function About() {
         </div>
         <div className=" mr-0 mt-20">
           {/* button */}
-          <button className="h-12 w-full rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
+          <button className="h-12 w-9/12 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
         </div>
       </div>
     </div>

@@ -40,7 +40,7 @@ function SkillSection() {
       </div>
       <div className="flex flex-row justify-around skill">
         {/* container */}
-        <div className="bg-white shadow-md  text-center hold flex flex-col hover:shadow-2xl width">
+        <div className="bg-white shadow-md  text-center hold flex flex-col hover:shadow-2xl width transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">
           {/* left side box */}
           <p className="text-gray-800 font-light text-center text-xl m-4">Front-end (primary - secondary)</p>
           <div className="flex flex-row">
@@ -76,7 +76,7 @@ function SkillSection() {
           </div>
 
         </div>
-        <div className="bg-white shadow-md  text-center hold flex flex-col hover:shadow-2xl width">
+        <div className="bg-white shadow-md  text-center hold flex flex-col hover:shadow-2xl width transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">
           {/* right side box */}
           <p className="text-gray-800 font-light text-center text-xl m-4">Back-end (primary - secondary)</p>
           <div className="flex flex-row">

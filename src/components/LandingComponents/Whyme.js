@@ -4,10 +4,10 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import whyme from '../../images/me.png';
-import github from '../../images/githubb.png';
-import email from '../../images/envelope.png';
+import github from '../../images/githubc.png';
+import email from '../../images/emailc.png';
 import facebook from '../../images/facebook.png';
-import linkedin from '../../images/linkedin.png';
+import linkedin from '../../images/linkedinc.png';
 import twitter from '../../images/twitter.png';
 
 function Whyme() {
@@ -41,11 +41,11 @@ function Whyme() {
             </h6>
             <div className="flex flex-row mt-10 p-5">
               {/* social media */}
-              <a href="https://github.com/pextech" target="_blank"><img src={github} alt="about me" className="w-6 h-6  mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-              <a href="mailto:mcstain1639@gmail.com" target="_blank"><img src={email} alt="about me" className="w-6 h-6  mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-              <a href="https://www.linkedin.com/in/mupenzi-cedrick-10a158196" target="_blank"><img src={linkedin} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-              <a href="https://web.facebook.com/profile.php?id=100008597651836" target="_blank"><img src={facebook} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-              <a href="https://twitter.com" target="_blank"><img src={twitter} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ... hover:shadow-xl" /></a>
+              <a href="https://github.com/pextech" target="_blank"><img src={github} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+              <a href="mailto:mcstain1639@gmail.com" target="_blank"><img src={email} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+              <a href="https://www.linkedin.com/in/mupenzi-cedrick-10a158196" target="_blank"><img src={linkedin} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+              <a href="https://web.facebook.com/profile.php?id=100008597651836" target="_blank"><img src={facebook} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+              <a href="https://twitter.com" target="_blank"><img src={twitter} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ... hover:shadow-xl" /></a>
             </div>
             <div className=" mr-0 mt-10">
               {/* button */}
@@ -63,11 +63,11 @@ function Whyme() {
         </h6>
         <div className="flex flex-row mt-10 justify-center">
           {/* social media */}
-          <a href="https://github.com/pextech" target="_blank"><img src={github} alt="about me" className="w-6 h-6  mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-          <a href="mailto:mcstain1639@gmail.com" target="_blank"><img src={email} alt="about me" className="w-6 h-6  mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-          <a href="https://www.linkedin.com/in/mupenzi-cedrick-10a158196" target="_blank"><img src={linkedin} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-          <a href="https://web.facebook.com/profile.php?id=100008597651836" target="_blank"><img src={facebook} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
-          <a href="https://twitter.com" target="_blank"><img src={twitter} alt="about me" className="w-6 h-6 mr-2 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ... hover:shadow-xl" /></a>
+          <a href="https://github.com/pextech" target="_blank"><img src={github} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="mailto:mcstain1639@gmail.com" target="_blank"><img src={email} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="https://www.linkedin.com/in/mupenzi-cedrick-10a158196" target="_blank"><img src={linkedin} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="https://web.facebook.com/profile.php?id=100008597651836" target="_blank"><img src={facebook} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ..." /></a>
+          <a href="https://twitter.com" target="_blank"><img src={twitter} alt="about me" className="w-5 h-5  mr-3 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-110 ... hover:shadow-xl" /></a>
         </div>
         <div className=" mr-0 mt-10 flex flex-row justify-center">
           {/* button */}
