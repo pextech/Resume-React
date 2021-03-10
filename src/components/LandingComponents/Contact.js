@@ -1,14 +1,16 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/void-dom-elements-no-children */
 /* eslint-disable max-len */
-import React from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import phone from '../../images/phone-call.png';
 import location from '../../images/placeholder.png';
 import email from '../../images/envelope.png';
 
-AOS.init();
 function Contact() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="bg-primary-200 p-10 flex flex-row justify-around contact" id="contact">
       {/* contact container */}

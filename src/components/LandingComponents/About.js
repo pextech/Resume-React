@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable max-len */
-import React from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import ScrollAnimation from 'react-animate-on-scroll';
 import aboutme from '../../images/aboutme.png';
@@ -14,9 +14,10 @@ import whatsapp from '../../images/whatsapp.png';
 import 'animate.css/animate.min.css';
 import 'aos/dist/aos.css';
 
-AOS.init();
-
 function About() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="bg-gray-100 flex xl:flex-row xs:flex-col xmd:flex-col aboutContainer" id="about">
       <div className="xl:w-1/2 xs:w-full xmd:w-full">

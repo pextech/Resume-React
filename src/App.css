@@ -4,6 +4,10 @@
 
 }
 
+body{
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar-thumb {
   background: #c1cf16;
   border-radius: 0px;
