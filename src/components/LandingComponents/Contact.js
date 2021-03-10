@@ -48,8 +48,8 @@ function Contact() {
           {/* bottom */}
           <form className="my-5">
             <div>
-              <input type="text" className="inp text-gray-300 ml-2 my-2" placeholder="Full Names" required />
-              <input type="email" className="inp text-gray-300 ml-2 my-2" placeholder="Email" required />
+              <input type="text" className="inp text-gray-300 ml-2 my-2 mt-4" placeholder="Full Names" required />
+              <input type="email" className="inp text-gray-300 ml-2 my-2 mt-4" placeholder="Email" required />
             </div>
             <textarea type="text" rows="5" className="inp text-gray-300 ml-2 my-10" placeholder="Your message" required />
             <br />

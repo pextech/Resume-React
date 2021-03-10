@@ -84,12 +84,7 @@ hr{
 .editor,.logo{
   animation: editor 3s;
 }
-.btn{
-  width: 30%;
-  height: 10px;
-  margin-top: 20px;
-  animation: transitionIn 3s;
-}
+
 .intro{
   animation: intro 3s;
 }
@@ -154,6 +149,13 @@ flex-direction: row;
   *{
     font-size: 12px;
   }
+  .headerContainer{
+    margin-left: 10px;
+  }
+  .headerContainer img{
+    margin-left: 40px;
+    width: 70%;
+  }
   .scrn_edit{
     width: none;
   }
@@ -183,10 +185,12 @@ flex-direction: row;
       margin-top: 0px;
       width: 80%;
     }
-  .btn{
-    width: 100%;
-    height: 50px;
-  }
+    .btn{
+      width: 100% !important;
+      height: 40px;
+      margin-top: 20px;
+      animation: transitionIn 3s;
+    }
   *{
     font-size: 12px;
   }
@@ -323,7 +327,27 @@ flex-direction: row;
       display: flex;
       flex-direction: column;
     }
+    .headerContainer{
+      margin-left: 40px;
+    }
+    .headerContainer img{
+      margin-left: 40px;
+      width: 70%;
+    }
+
 }
+
+@media only screen and (min-width:370px)  {
+
+  .headerContainer{
+    margin-left: 70px;
+  }
+  .headerContainer img{
+    margin-left: 40px;
+    width: 70%;
+  }
+}
+
 @media only screen and (min-width:500px)  {
   .humbergur{
     margin-left: 380px;
@@ -381,6 +405,22 @@ flex-direction: row;
             }
             textarea{
               width: 80%;
+            }
+            .btn{
+              width: 100%;
+              height: 40px;
+              margin-top: 20px;
+              animation: transitionIn 3s;
+            }
+            .headerContainer{
+              margin-left: 90px;
+            }
+            .headerContainer img{
+              margin-left: 100px;
+              width: 70%;
+            }
+            .headerContainer button{
+              margin-left: 60px;
             }
             
 }
@@ -445,6 +485,16 @@ flex-direction: row;
       }
       textarea{
         width: 50%;
+      }
+      .headerContainer{
+        margin-left: 100px;
+      }
+      .headerContainer img{
+        margin-left: 70px;
+        width: 70%;
+      }
+      .headerContainer button{
+        margin-left: 10px;
       }
 }
 @media only screen and (min-width:800px)  {
@@ -516,6 +566,16 @@ flex-direction: row;
                 textarea{
                   width: 90%;
                 }
+                .headerContainer{
+                  margin-left: 100px;
+                }
+                .headerContainer img{
+                  margin-left: 70px;
+                  width: 70%;
+                }
+                .headerContainer button{
+                  margin-left: 10px;
+                }
             /* .about{
               flex-direction: row;
                 }    */
@@ -523,6 +583,18 @@ flex-direction: row;
   /* .navbar{
     display: inline-block;
   } */
+ }
+ @media only screen and (min-width:1020px)  {
+  .headerContainer{
+    margin-left: 250px;
+  }
+  .headerContainer img{
+    margin-left: 70px;
+    width: 70%;
+  }
+  .headerContainer button{
+    margin-left: 10px;
+  }
  }
  @media only screen and (min-width:1200px)  {
   .hide{
@@ -599,6 +671,16 @@ flex-direction: row;
                     }
                     textarea{
                       width: 85%;
+                    }
+                    .headerContainer{
+                      margin-left: 0px;
+                    }
+                    .headerContainer img{
+                      margin-left: 100px;
+                      width: 70%;
+                    }
+                    .headerContainer button{
+                      margin-left: 30px;
                     }
   /* .serviceBox{
     flex-direction: row;

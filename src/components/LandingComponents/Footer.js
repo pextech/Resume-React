@@ -10,7 +10,7 @@ import copyright from '../../images/copyright.png';
 function Footer() {
   return (
     <div className="flex flex-row justify-around bg-black py-10">
-      <div className="flex flex-row  p-4 justify-start">
+      <div className="flex flex-row  p-2 justify-start">
         {/* social media */}
         <p className="text-gray-300 mr-5">Follow me on</p>
         <div className="flex flex-row bg-black p-1 justify-start">
@@ -23,7 +23,7 @@ function Footer() {
 
       </div>
       <div className="flex flex-row ">
-        <p className="text-gray-300 p-4 w-full flex flex-row ">
+        <p className="text-gray-300 p-2 w-full flex flex-row ">
           Copyright
           <img
             src={copyright}
