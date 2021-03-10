@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.0b612900.chunk.css",
-    "main.js": "./static/js/main.57bf18c3.chunk.js",
-    "main.js.map": "./static/js/main.57bf18c3.chunk.js.map",
+    "main.css": "./static/css/main.4c379242.chunk.css",
+    "main.js": "./static/js/main.afd1ce12.chunk.js",
+    "main.js.map": "./static/js/main.afd1ce12.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.eee23891.js",
     "runtime-main.js.map": "./static/js/runtime-main.eee23891.js.map",
     "static/css/2.4c43ad7e.chunk.css": "./static/css/2.4c43ad7e.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.77c15e6f.chunk.js.map": "./static/js/3.77c15e6f.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.4c43ad7e.chunk.css.map": "./static/css/2.4c43ad7e.chunk.css.map",
-    "static/css/main.0b612900.chunk.css.map": "./static/css/main.0b612900.chunk.css.map",
+    "static/css/main.4c379242.chunk.css.map": "./static/css/main.4c379242.chunk.css.map",
     "static/js/2.daa4e9f7.chunk.js.LICENSE.txt": "./static/js/2.daa4e9f7.chunk.js.LICENSE.txt",
     "static/media/aboutme.d06c6d4e.png": "./static/media/aboutme.d06c6d4e.png",
     "static/media/bootstrapp.5b6ec4d1.png": "./static/media/bootstrapp.5b6ec4d1.png",
@@ -23,6 +23,7 @@
     "static/media/express.cca64e0f.png": "./static/media/express.cca64e0f.png",
     "static/media/figma.90eb21ce.png": "./static/media/figma.90eb21ce.png",
     "static/media/firebase.6f1a1b33.png": "./static/media/firebase.6f1a1b33.png",
+    "static/media/icon.4b83adc7.svg": "./static/media/icon.4b83adc7.svg",
     "static/media/ios.715cce0e.svg": "./static/media/ios.715cce0e.svg",
     "static/media/jest.95bffbbd.png": "./static/media/jest.95bffbbd.png",
     "static/media/js.dd493364.png": "./static/media/js.dd493364.png",
@@ -33,7 +34,6 @@
     "static/media/mongodb.3cc78486.png": "./static/media/mongodb.3cc78486.png",
     "static/media/net.3ac68d1d.png": "./static/media/net.3ac68d1d.png",
     "static/media/netlify.603ef81c.png": "./static/media/netlify.603ef81c.png",
-    "static/media/pextech.3f097636.png": "./static/media/pextech.3f097636.png",
     "static/media/php.12412c19.png": "./static/media/php.12412c19.png",
     "static/media/postgres.eba8cd3a.png": "./static/media/postgres.eba8cd3a.png",
     "static/media/react.44319306.png": "./static/media/react.44319306.png",
@@ -53,7 +53,7 @@
     "static/js/runtime-main.eee23891.js",
     "static/css/2.4c43ad7e.chunk.css",
     "static/js/2.daa4e9f7.chunk.js",
-    "static/css/main.0b612900.chunk.css",
-    "static/js/main.57bf18c3.chunk.js"
+    "static/css/main.4c379242.chunk.css",
+    "static/js/main.afd1ce12.chunk.js"
   ]
 }
