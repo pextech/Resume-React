@@ -4,7 +4,7 @@
 Progressive development of my resume (preview)
 ```
 
-![Design preview for the web app](./UI.png)
+![Design preview for the web app](./userInterface.png)
 
 ```
 Using Amazing Technologies to make this even more interesting ⚙︎ 🔧
