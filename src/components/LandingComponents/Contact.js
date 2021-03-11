@@ -53,7 +53,7 @@ function Contact() {
             </div>
             <textarea type="text" rows="5" className="inp text-gray-300 ml-2 my-10" placeholder="Your message" required />
             <br />
-            <button type="button" className="p-2 text-md mt-6 login rounded-none text-gray-200 border-gray-900 bg-gray-900  hover:bg-gray-200 hover:text-gray-700 hover:shadow-2xl ">Send</button>
+            <button type="button" className="p-2 text-md mt-6 login rounded-none text-gray-200 border-gray-900 bg-gray-900  hover:bg-gray-200 hover:text-gray-700 hover:shadow-2xl transition duration-500 ease-in-out transform ...">Send</button>
           </form>
         </div>
       </div>

@@ -3,7 +3,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../images/logo3.png';
+import logo from '../../images/logo1.png';
 import Dropdown from './Dropdown';
 
 function Navbar() {

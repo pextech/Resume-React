@@ -19,7 +19,7 @@ function Whyme() {
     <div className="bg-gray-800">
       {' '}
       <div className="bg-primary-200 flex flex-row justify-center mt-6 pl-4 pb-6 xs:pb-0 pr-4">
-        <div className="">
+        <div className=" mb-5">
           {/* right side */}
           <img src={whyme} className="w-full h-full me scale-110 transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-80 ... z-30" alt="sketch" />
         </div>
@@ -49,7 +49,7 @@ function Whyme() {
             </div>
             <div className=" mr-0 mt-10">
               {/* button */}
-              <button className="h-12 w-full rounded-sm text-white border-3 border-gray-700 hover:bg-gray-200 hover:text-gray-600 hover:border-gray-200 bg-gray-700 xl:ml-10 ml-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
+              <button className="h-12 w-full rounded-sm text-white border-3 border-gray-700 hover:bg-gray-200 hover:text-gray-600 hover:border-gray-200 bg-gray-700 xl:ml-10 ml-2 transition duration-500 ease-in-out transform ..." attribute="contact" type="button">Send me a query</button>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ function Whyme() {
         </div>
         <div className=" mr-0 mt-10 flex flex-row justify-center">
           {/* button */}
-          <button className="h-12 w-full  rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-200 hover:border-gray-200 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
+          <button className="h-12 w-full  rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-200 hover:border-gray-200 transition duration-500 ease-in-out transform ..." attribute="contact" type="button">Send me a query</button>
         </div>
       </div>
 

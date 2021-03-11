@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import pextech from '../../images/icon.svg';
+import pextech from '../../images/logo2.png';
 import editor from '../../images/stage2_phn.png';
 import textEdit from '../../images/screen_editor.svg';
 // import LandingSkeleton from '../skeletons/LandingSkeleton';
@@ -16,22 +16,22 @@ function Header() {
       {/* {loading && <LandingSkeleton />} */}
 
       <div className="flex flex-row shadow-md pl-12 sm:pl-0 xs:pl-0 xsm:pl-0 justify-between header" id="home">
-        <div className="m-10 moff p-10 xs:m-4 xs:p-0 headerContainer xsm:p-0 sm:p-4 sm:m-4 xsm:m-4">
+        <div className="moff xs:m-4 xs:p-0  xsm:p-0 sm:p-4 sm:m-4 xsm:m-4">
           {/* left side */}
-          <div className="m-10 moff xs:m-10 sm:m-4 xsm:m-4">
+          <div className="mx-10 moff xs:m-10 sm:m-4 xsm:m-4">
             {/* Logo or Picture */}
             <img
               src={pextech}
               alt="pextech logo"
-              data-aos="fade-up"
-              className=" w-full h-full pextech
-            rounded-full xl:w-80 xl:h-80 ml-12 xs:w-full xs:ml-0 xs:h-1/2"
+              data-aos="flip-left"
+              className=" w-full h-full
+            rounded-full xl:w-80 xl:h-80  xs:w-full xs:ml-0 xs:h-1/2"
             />
           </div>
-          <div className="ml-5 mt-5 w-full">
+          <div className=" w-full mb-5">
             <div>
               {/* cool text here */}
-              <h1 className="text-5xl text-gray-200 ml-20 px-12 py-5 xs:ml-4 sm:p-4 xsm:p-4 xs:p-4 " data-aos="fade-up">
+              <h1 className="text-5xl text-gray-200 ml-20 px-12 py-0 xs:ml-4 sm:p-4 xsm:p-4 xs:p-4 " data-aos="fade-up">
                 Breathing
                 <br />
                 {' '}
@@ -56,7 +56,7 @@ function Header() {
           {/* righ side */}
 
           <img src={textEdit} alt="editor" className="md:block xl:block srcn_edit w-11/12 sm:hidden xs:hidden" />
-          <img src={editor} alt="editor" className="md:block xl:block srcn_edit w-1/2 h-5 sm:hidden xs:hidden" />
+          <img src={editor} alt="editor" className="md:block xl:block srcn_edit w-1/2 h-1/3 sm:hidden xs:hidden" />
 
         </div>
       </div>

@@ -87,7 +87,7 @@ function About() {
         </div>
         <div className=" mr-0 mt-20">
           {/* button */}
-          <button className="h-12 w-9/12 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">Send me a query</button>
+          <button className="h-12 w-9/12 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform  ..." attribute="contact" type="button">Send me a query</button>
         </div>
       </div>
     </div>
