@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { animateScroll as scroll } from 'react-scroll';
 import whyme from '../../images/me.png';
 import github from '../../images/githubc.png';
 import email from '../../images/emailc.png';
@@ -14,6 +15,9 @@ function Whyme() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+  const toggleContact = () => {
+    scroll.scrollToBottom();
+  };
 
   return (
     <div className="bg-gray-800">
@@ -49,7 +53,7 @@ function Whyme() {
             </div>
             <div className=" mr-0 mt-10">
               {/* button */}
-              <button className="h-12 w-full rounded-sm text-white border-3 border-gray-700 hover:bg-gray-200 hover:text-gray-600 hover:border-gray-200 bg-gray-700 xl:ml-10 ml-2 transition duration-500 ease-in-out transform ..." attribute="contact" type="button">Send me a query</button>
+              <button onClick={toggleContact} className="h-12 w-full rounded-sm text-white border-3 border-gray-700 hover:bg-gray-200 hover:text-gray-600 hover:border-gray-200 bg-gray-700 xl:ml-10 ml-2 transition duration-500 ease-in-out transform ..." attribute="contact" type="button">Send me a query</button>
             </div>
           </div>
 

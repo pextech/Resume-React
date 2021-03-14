@@ -2,6 +2,7 @@
 /* eslint-disable max-len */
 import React, { useEffect } from 'react';
 import AOS from 'aos';
+import { animateScroll as scroll } from 'react-scroll';
 import ScrollAnimation from 'react-animate-on-scroll';
 import aboutme from '../../images/aboutme.png';
 import github from '../../images/github.png';
@@ -18,6 +19,9 @@ function About() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+  const toggleContact = () => {
+    scroll.scrollToBottom();
+  };
   return (
     <div className="bg-gray-100 flex xl:flex-row xs:flex-col xmd:flex-col aboutContainer" id="about">
       <div className="xl:w-1/2 xs:w-full xmd:w-full">
@@ -90,7 +94,7 @@ function About() {
         </div>
         <div className=" mr-0 mt-20">
           {/* button */}
-          <button className="h-12 w-9/12 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform  ..." attribute="contact" type="button">Send me a query</button>
+          <button onClick={toggleContact} className="h-12 w-9/12 rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform  ..." attribute="contact" type="button">Send me a query</button>
         </div>
       </div>
     </div>

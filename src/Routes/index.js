@@ -1,6 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Landing from '../components/Landing';
+import Blog from '../components/Blog';
+import Works from '../components/Works';
+import Login from '../components/Login';
 
 function index() {
   return (
@@ -12,6 +15,21 @@ function index() {
         onEnter={() => {
           document.getElementById('home').scrollIntoView();
         }}
+      />
+      <Route
+        exact
+        path="/blog"
+        component={Blog}
+      />
+      <Route
+        exact
+        path="/works"
+        component={Works}
+      />
+      <Route
+        exact
+        path="/login"
+        component={Login}
       />
       <Route
         exact

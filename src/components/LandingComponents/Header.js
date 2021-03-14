@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { animateScroll as scroll } from 'react-scroll';
 import pextech from '../../images/logo2.png';
 import editor from '../../images/stage2_phn.png';
 import textEdit from '../../images/screen_editor.svg';
@@ -11,6 +12,10 @@ function Header() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+  const toggleContact = () => {
+    scroll.scrollToBottom();
+  };
+
   return (
     <>
       {/* {loading && <LandingSkeleton />} */}
@@ -43,7 +48,7 @@ function Header() {
             </div>
             <div data-aos="fade-up" className="xs:mb-20 xs:mt-10 flex md:flex-row xs:flex-col xsm:flex-col justify-evenly ml-20 xs:p-0 xsm:p-0 sm:p-0 sm:m-4 xsm:m-4 xs:ml-4">
               {/* buttons here */}
-              <button className=" btn rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">
+              <button onClick={toggleContact} className=" btn rounded-sm text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="contact" type="button">
                 let's
                 {' '}
                 sync

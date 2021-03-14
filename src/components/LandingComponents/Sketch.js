@@ -44,7 +44,7 @@ function Sketch() {
             Product.
           </span>
           <div className="">
-            <Link to="/" className="flex flex-row my-work">
+            <Link to="works" className="flex flex-row my-work">
               <h4 className="work">My work</h4>
               <svg className="arrow w-6 h-6 work ml-3 mt-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>

@@ -49,9 +49,13 @@ function NavItems() {
             <Link onClick={() => scroll({ x: 20, y: 2750, smooth: true })} to="service" spy="true" smooth="true" offset={50} duration={500}><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Services</li></Link>
           )}
         </ScrollTo>
-        <Link onClick={toggleContact} to="contact" spy="true" smooth="true" offset={50} duration={500}><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Contact</li></Link>
-        <Link to="/blog"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Blog</li></Link>
-        <button type="button" className="p-2 text-md mt-6 login  text-white border-gray-900 bg-primary-200  hover:bg-black hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">Login</button>
+        <Link onClick={toggleContact} to="#contact" spy="true" smooth="true" offset={50} duration={500}><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Contact</li></Link>
+        <Link to="blog"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Blog</li></Link>
+        <Link to="login">
+          {' '}
+          <button type="button" className="p-2 text-md mt-6 login  text-white border-gray-900 bg-primary-200  hover:bg-black hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">Login</button>
+          {' '}
+        </Link>
       </ul>
     </>
   );

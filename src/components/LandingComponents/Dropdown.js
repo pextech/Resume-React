@@ -89,8 +89,8 @@ export default function Modal() {
                       )}
                     </ScrollTo>
                     <Link onClick={toggleContact} to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4 font-light">Contact</li></Link>
-                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">Blog</li></Link>
-                    <button type="button" className="p-5 w-10/12 text-2xl mt-1 rounded-md font-light text-white border-black bg-black  hover:bg-primary-200">Login</button>
+                    <Link to="blog"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">Blog</li></Link>
+                    <Link to="login"><button type="button" className="p-5 w-full text-2xl mt-1 rounded-md font-light text-white border-black bg-black  hover:bg-primary-200">Login</button></Link>
                   </ul>
                 </div>
                 {/* footer */}

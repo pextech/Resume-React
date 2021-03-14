@@ -30,7 +30,7 @@ function Service() {
 
           I am always ready to pick up something new. 😋
         </p>
-        <Link to="/">
+        <Link to="/works">
           <button className="h-12 w-full flex flex-row justify-center p-3 rounded-sm mt-5 text-white border-3 border-gray-700 bg-gray-700 xl:ml-10 ml-2 hover:bg-gray-800 transition duration-500 ease-in-out transform ..." attribute="contact" type="button">
             Portfolio
             <svg className="arrow w-6 h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
