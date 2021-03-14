@@ -7,7 +7,11 @@
 body{
   overflow-x: hidden;
 }
-
+.work{
+  margin-top: 20px;
+  font-size: 14px;
+  color: #cecece;
+}
 ::-webkit-scrollbar-thumb {
   background: #c1cf16;
   border-radius: 0px;
@@ -246,6 +250,13 @@ flex-direction: row;
 .contact{
   display: flex;
   flex-direction: column;
+}
+.my-work{
+  display: flex;
+  flex-direction: column;
+}
+.arrow{
+  margin-top: 0px;
 }
  /* .navbar{
   margin-top: 100px;
@@ -682,6 +693,7 @@ flex-direction: row;
                     .headerContainer button{
                       margin-left: 30px;
                     }
+                  
   /* .serviceBox{
     flex-direction: row;
   } */

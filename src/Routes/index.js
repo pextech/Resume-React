@@ -1,19 +1,50 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Landing from '../components/Landing';
-import About from '../components/LandingComponents/About';
-import Contact from '../components/LandingComponents/Contact';
-import Service from '../components/LandingComponents/Service';
-import Sketch from '../components/LandingComponents/Sketch';
 
 function index() {
   return (
     <Switch>
-      <Route exact path="/" component={Landing} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/service" component={Service} />
-      <Route exact path="/contact" component={Contact} />
-      <Route exact path="/portfolio" component={Sketch} />
+      <Route
+        exact
+        path="/"
+        component={Landing}
+        onEnter={() => {
+          document.getElementById('home').scrollIntoView();
+        }}
+      />
+      <Route
+        exact
+        path="/about"
+        component={Landing}
+        onEnter={() => {
+          document.getElementById('about').scrollIntoView();
+        }}
+      />
+      <Route
+        exact
+        path="/service"
+        component={Landing}
+        onEnter={() => {
+          document.getElementById('service').scrollIntoView();
+        }}
+      />
+      <Route
+        exact
+        path="/contact"
+        component={Landing}
+        onEnter={() => {
+          document.getElementById('contact').scrollIntoView();
+        }}
+      />
+      <Route
+        exact
+        path="/portfolio"
+        component={Landing}
+        onEnter={() => {
+          document.getElementById('portfolio').scrollIntoView();
+        }}
+      />
 
     </Switch>
   );

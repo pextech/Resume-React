@@ -17,33 +17,53 @@ function Contact() {
   const name = useSelector((state) => state.inputs.name);
   const email = useSelector((state) => state.inputs.email);
   const message = useSelector((state) => state.inputs.message);
-  const loading = useSelector((state) => state.inputs.loading);
+  // const loading = useSelector((state) => state.inputs.loading);
   const error = useSelector((state) => state.inputs.error);
 
   const dispatch = useDispatch();
 
   const addNote = (e) => {
     e.preventDefault();
-    if (name && email && message) {
+    if (name.length < 4) {
+      toast.error('name must be 3 digits minimum', {
+        position: 'top-right',
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    }
+    if (message.length < 15) {
+      toast.error('message must be 15 digits minimum', {
+        position: 'top-right',
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    }
+    if (name.length > 4 && email && message.length > 15) {
+      dispatch(inputActions.setError(false));
+      dispatch(inputActions.setLoading(true));
+      toast.dark('Message is successfully sent', {
+        position: 'top-right',
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
       dispatch(noteActions.addNote({
         name,
         email,
         message,
       }));
       dispatch(inputActions.resetInputs());
-      dispatch(inputActions.setError(false));
-      dispatch(inputActions.setLoading(true));
-      if (loading === true) {
-        toast.dark('Message is successfully sent', {
-          position: 'top-right',
-          autoClose: 3000,
-          hideProgressBar: true,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        });
-      }
       if (error === true) {
         toast.error('error sending message!!!', {
           position: 'top-right',

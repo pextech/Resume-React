@@ -1,10 +1,23 @@
+/* eslint-disable no-shadow */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable no-undef */
+/* eslint-disable react/jsx-boolean-value */
+/* eslint-disable no-unused-vars */
 /* eslint-disable max-len */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
-import React from 'react';
+import React, { useEffect } from 'react';
+import * as Scroll from 'react-scroll';
+import { ScrollTo } from 'react-scroll-to';
+import {
+  Element, Events, animateScroll as scroll, scrollSpy, scroller,
+  Link as linkS,
+} from 'react-scroll';
+
 import { Link } from 'react-router-dom';
 import logo from '../../images/logo1.png';
 import Dropdown from './Dropdown';
+import NavItems from './NavItems';
 
 function Navbar() {
   // const [isOpen, setisOpen] = React.useState(false);
@@ -12,12 +25,20 @@ function Navbar() {
   // function handleClick() {
   //   setisOpen(!isOpen);
   // }
+
+  const changeNav = () => {
+
+  };
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <div className="flex flex-row justify-between bg-white shadow-lg p-2 sticky top-0 ... z-40">
       <div className="flex flex-row justify-between">
         <div>
           {/* left logo side */}
-          <Link to="/"><img src={logo} alt="logo" className="w-20 h-20 ml-10" /></Link>
+          <Link to="/" onClick={toggleHome}><img src={logo} alt="logo" className="w-20 h-20 ml-10" /></Link>
         </div>
         <div className="hidden cursor-pointer px-4 show humbergur">
           <Dropdown />
@@ -29,15 +50,7 @@ function Navbar() {
       </div>
       <div className="flex flex-row mr-11 hide xmd:hidden xs:flex-col xsm:flex-col">
         {/* right nav side */}
-        <ul className="flex flex-row navbar xs:flex-col xsm:flex-col font-light">
-          <Link to="#home"><li className="active hover:text-primary-100 text-gray-800 m-4 text-md p-4">Home</li></Link>
-          <Link to="#about"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">About</li></Link>
-          <Link to="#service"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Service</li></Link>
-          <Link to="#portfolio"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Portfolio</li></Link>
-          <Link to="#contact"><li className="text-gray-800  hover:text-primary-100 m-4 text-md p-4">Contact</li></Link>
-          <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-md p-4">Blog</li></Link>
-          <button type="button" className="p-2 text-md mt-6 login  text-white border-gray-900 bg-primary-200  hover:bg-black hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ...">Login</button>
-        </ul>
+        <NavItems />
       </div>
     </div>
   );

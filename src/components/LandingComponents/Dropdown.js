@@ -1,9 +1,37 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
-import React from 'react';
+/* eslint-disable no-shadow */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable no-undef */
+/* eslint-disable react/jsx-boolean-value */
+/* eslint-disable no-unused-vars */
+/* eslint-disable max-len */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+import React, { useEffect } from 'react';
+import * as Scroll from 'react-scroll';
+import { ScrollTo } from 'react-scroll-to';
+import {
+  Element, Events, animateScroll as scroll, scrollSpy, scroller,
+  Link as linkS,
+} from 'react-scroll';
+
 import { Link } from 'react-router-dom';
 
 export default function Modal() {
+  const changeNav = () => {
+
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav);
+  }, []);
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+  const toggleContact = () => {
+    scroll.scrollToBottom();
+  };
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
@@ -44,11 +72,23 @@ export default function Modal() {
                 {/* body */}
                 <div className="relative p-6 flex-auto">
                   <ul className="flex flex-col items-center navbar">
-                    <Link to="/"><li className="active hover:text-primary-100 text-primary-100 m-4 text-2xl p-4 font-light">Home</li></Link>
-                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">About</li></Link>
-                    <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">Service</li></Link>
-                    <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4 font-light">Portfolio</li></Link>
-                    <Link to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4 font-light">Contact</li></Link>
+                    <Link onClick={toggleHome} to="/"><li className="active hover:text-primary-100 text-primary-100 m-4 text-2xl p-4 font-light">Home</li></Link>
+                    <ScrollTo>
+                      {({ scroll }) => (
+                        <Link onClick={() => scroll({ x: 20, y: 600, smooth: true })} to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">About</li></Link>
+                      )}
+                    </ScrollTo>
+                    <ScrollTo>
+                      {({ scroll }) => (
+                        <Link onClick={() => scroll({ x: 20, y: 2200, smooth: true })} to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4 font-light">Portfolio</li></Link>
+                      )}
+                    </ScrollTo>
+                    <ScrollTo>
+                      {({ scroll }) => (
+                        <Link onClick={() => scroll({ x: 20, y: 2600, smooth: true })} to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">Service</li></Link>
+                      )}
+                    </ScrollTo>
+                    <Link onClick={toggleContact} to="/"><li className="text-gray-800  hover:text-primary-100 m-4 text-2xl p-4 font-light">Contact</li></Link>
                     <Link to="/"><li className="text-gray-800 hover:text-primary-100 m-4 text-2xl p-4 font-light">Blog</li></Link>
                     <button type="button" className="p-5 w-10/12 text-2xl mt-1 rounded-md font-light text-white border-black bg-black  hover:bg-primary-200">Login</button>
                   </ul>

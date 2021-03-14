@@ -69,6 +69,9 @@ function About() {
             ,
             <a href="https://gdg.community.dev/" target="_blank" className="text-blue-500 hover:text-primary-100"> GDG </a>
             {' '}
+            ,
+            <a href="https://training.zuri.team/" target="_blank" className="text-blue-500 hover:text-primary-100"> Zuri </a>
+            {' '}
             , etc ...
           </p>
           <p className="mt-4">
