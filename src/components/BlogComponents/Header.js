@@ -7,7 +7,7 @@ import blogwritter from '../../images/blog.gif';
 function Header() {
   return (
     <div className="flex flex-row justify-between p-10 blog mb-20">
-      <div className="m-28">
+      <div className="m-28 title">
         {/* title */}
         <p className="text-gray-600 text-5xl font-bold mb-4">
           What's New?

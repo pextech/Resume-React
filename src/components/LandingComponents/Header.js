@@ -1,8 +1,22 @@
+/* eslint-disable no-shadow */
 /* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-shadow */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable no-undef */
+/* eslint-disable react/jsx-boolean-value */
+/* eslint-disable no-unused-vars */
+/* eslint-disable max-len */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useEffect } from 'react';
 import AOS from 'aos';
+import * as Scroll from 'react-scroll';
+import { ScrollTo } from 'react-scroll-to';
 import 'aos/dist/aos.css';
-import { animateScroll as scroll } from 'react-scroll';
+import {
+  Element, Events, animateScroll as scroll, scrollSpy, scroller,
+  Link as linkS,
+} from 'react-scroll';
 import pextech from '../../images/logo2.png';
 import editor from '../../images/stage2_phn.png';
 import textEdit from '../../images/screen_editor.svg';
@@ -53,7 +67,11 @@ function Header() {
                 {' '}
                 sync
               </button>
-              <button className=" btn rounded-sm text-white border-2 border-white sm:w-full xs:w-full ml-2 hover:bg-white hover:text-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="portfolio" type="button">Porfolio</button>
+              <ScrollTo>
+                {({ scroll }) => (
+                  <button onClick={() => scroll({ x: 20, y: 1500, smooth: true })} className=" btn rounded-sm text-white border-2 border-white sm:w-full xs:w-full ml-2 hover:bg-white hover:text-gray-800 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ..." attribute="portfolio" type="button">Porfolio</button>
+                )}
+              </ScrollTo>
             </div>
           </div>
         </div>
