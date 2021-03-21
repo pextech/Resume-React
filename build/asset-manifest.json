@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.b9f4f5db.chunk.css",
-    "main.js": "./static/js/main.adc05584.chunk.js",
-    "main.js.map": "./static/js/main.adc05584.chunk.js.map",
+    "main.css": "./static/css/main.65822e79.chunk.css",
+    "main.js": "./static/js/main.402279c2.chunk.js",
+    "main.js.map": "./static/js/main.402279c2.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.13384a3a.js",
     "runtime-main.js.map": "./static/js/runtime-main.13384a3a.js.map",
     "static/css/2.0e7187bf.chunk.css": "./static/css/2.0e7187bf.chunk.css",
@@ -12,8 +12,11 @@
     "static/js/3.63f6b53d.chunk.js.map": "./static/js/3.63f6b53d.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.0e7187bf.chunk.css.map": "./static/css/2.0e7187bf.chunk.css.map",
-    "static/css/main.b9f4f5db.chunk.css.map": "./static/css/main.b9f4f5db.chunk.css.map",
+    "static/css/main.65822e79.chunk.css.map": "./static/css/main.65822e79.chunk.css.map",
     "static/js/2.01a49b99.chunk.js.LICENSE.txt": "./static/js/2.01a49b99.chunk.js.LICENSE.txt",
+    "static/media/Avatar.dedc810e.png": "./static/media/Avatar.dedc810e.png",
+    "static/media/Code.8f532c47.png": "./static/media/Code.8f532c47.png",
+    "static/media/Todo.232e8696.jpg": "./static/media/Todo.232e8696.jpg",
     "static/media/aboutme.d06c6d4e.png": "./static/media/aboutme.d06c6d4e.png",
     "static/media/blog.aeeec984.gif": "./static/media/blog.aeeec984.gif",
     "static/media/bootstrapp.5b6ec4d1.png": "./static/media/bootstrapp.5b6ec4d1.png",
@@ -24,6 +27,7 @@
     "static/media/express.cca64e0f.png": "./static/media/express.cca64e0f.png",
     "static/media/figma.90eb21ce.png": "./static/media/figma.90eb21ce.png",
     "static/media/firebase.6f1a1b33.png": "./static/media/firebase.6f1a1b33.png",
+    "static/media/future.be1c4001.jpg": "./static/media/future.be1c4001.jpg",
     "static/media/hm-hero-mobile.26eadddb.mp4": "./static/media/hm-hero-mobile.26eadddb.mp4",
     "static/media/ios.715cce0e.svg": "./static/media/ios.715cce0e.svg",
     "static/media/jest.95bffbbd.png": "./static/media/jest.95bffbbd.png",
@@ -55,7 +59,7 @@
     "static/js/runtime-main.13384a3a.js",
     "static/css/2.0e7187bf.chunk.css",
     "static/js/2.01a49b99.chunk.js",
-    "static/css/main.b9f4f5db.chunk.css",
-    "static/js/main.adc05584.chunk.js"
+    "static/css/main.65822e79.chunk.css",
+    "static/js/main.402279c2.chunk.js"
   ]
 }
