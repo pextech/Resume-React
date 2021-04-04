@@ -15,7 +15,7 @@ function Container() {
   const description = 'Test: When someone shows you who they are, believe them believe them believe them';
 
   return (
-    <div className="bg-primary-200 flex flex-row p-20 justify-center section-container">
+    <div className="bg-primary-200 flex flex-row p-20 justify-center section-container h-full">
       {/* main section */}
       <div className="flex flex-row flex-wrap w-full blog-container">
         {/* blog containers */}
@@ -24,7 +24,7 @@ function Container() {
         <Blogs image={Avatar} title={title3} description={description} date="March 18, 2021" />
         <Blogs image={Todo} title={title4} description={description} date="January 13, 2020" />
       </div>
-      <div className="p-10 w-5/12 blog-side">
+      <div className="p-10 w-5/12 blog-side mb-36">
         {/* left side */}
         <div className="absolute w-1/5 search">
           <input type="text" placeholder="Search..." className="w-full  h-12 search rounded-md pl-10 inp text-gray-200" />

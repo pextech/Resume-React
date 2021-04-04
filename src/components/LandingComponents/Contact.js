@@ -107,7 +107,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col my-10 form">
+      <div className="flex flex-col my-20 form">
         {/* righ descr */}
         <div>
           <p className="text-xl text-primary-100">Drop an Enquiry</p>

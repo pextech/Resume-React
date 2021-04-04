@@ -156,6 +156,22 @@ flex-direction: row;
 @media only screen and (min-width:200px)  {
   *{
     font-size: 12px;
+
+  }
+  .section-container{
+    padding: 0;
+  }
+  .detail_image{
+    height: 100%;
+  }
+  .detail_container{
+    height: 500px;
+  }
+  .detail_image2{
+    height: 100%;
+  }
+  .detail_container2{
+    height: 300px;
   }
   .headerContainer{
     margin-left: 10px;
@@ -314,6 +330,12 @@ width: 100%;
   .humbergur{
     margin-left: 200px;
   }
+  .detail_image{
+    height: 100%;
+  }
+  .detail_container{
+    height: 500px;
+  }
   /* .about{
     flex-direction: row;
       }    */
@@ -439,6 +461,12 @@ width: 100%;
   .headerContainer{
     margin-left: 70px;
   }
+  .detail_image{
+    height: 100%;
+  }
+  .detail_container{
+    height: 500px;
+  }
   .headerContainer img{
     margin-left: 40px;
     width: 70%;
@@ -489,6 +517,12 @@ width: 100%;
 @media only screen and (min-width:500px)  {
   .humbergur{
     margin-left: 380px;
+  }
+  .detail_image{
+    height: 100%;
+  }
+  .detail_container{
+    height: 500px;
   }
   .serviceBox{
     flex-direction: column;
@@ -604,6 +638,12 @@ width: 100%;
             
 }
    @media only screen and (min-width:700px)  {
+    .detail_image{
+      height: 100%;
+    }
+    .detail_container{
+      height: 500px;
+    }
   .humbergur{
     margin-left: 500px;
   }
@@ -719,7 +759,12 @@ width: 100%;
       }
 }
 @media only screen and (min-width:625px)  {
-
+  .detail_image{
+    height: 100%;
+  }
+  .detail_container{
+    height: 500px;
+  }
 .section-container{
   display: flex;
   flex-direction: column;
@@ -864,6 +909,12 @@ width: 70%;
                   right: 40%;
                 
                 }
+                .detail_image{
+                  height: 100%;
+                }
+                .detail_container{
+                  height: 500px;
+                }
             /* .about{
               flex-direction: row;
                 }    */
@@ -874,12 +925,11 @@ width: 70%;
  }
 
  @media only screen and (min-width:1020px)  {
-  .headerContainer{
-    margin-left: 250px;
+  .detail_image{
+    height: 100%;
   }
-  .headerContainer img{
-    margin-left: 70px;
-    width: 70%;
+  .detail_container{
+    height: 500px;
   }
   .headerContainer button{
     margin-left: 10px;
@@ -912,7 +962,7 @@ width: 70%;
     width: 40%;
   }
   .search{
-    width: 50%;
+    width: 40%;
   }
   .search button img{
     right: 50%;
