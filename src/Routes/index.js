@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Landing from '../components/Landing';
 import Blog from '../components/Blog';
+import singleBlog from '../components/SingleBlog';
 import Works from '../components/Works';
 import Login from '../components/Login';
 
@@ -62,6 +63,11 @@ function index() {
         onEnter={() => {
           document.getElementById('portfolio').scrollIntoView();
         }}
+      />
+      <Route
+        exact
+        path="/blog/details"
+        component={singleBlog}
       />
 
     </Switch>

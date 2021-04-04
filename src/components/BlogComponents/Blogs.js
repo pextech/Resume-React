@@ -14,7 +14,7 @@ function Blogs({
         <p className="ml-4 font-light text-sm mt-1">{date}</p>
       </div>
       <div className="title ml-10 mt-4 font-semibold w-10/12 text-gray-700">
-        <Link to="/blog"><p className="font-medium hover:font-bold">{title}</p></Link>
+        <Link to="/blog/details"><p className="font-medium hover:font-bold">{title}</p></Link>
       </div>
       <div className="description ml-10 my-6 ">
         <p className="font-light hover:font-normal text-gray-700">
@@ -22,7 +22,17 @@ function Blogs({
         </p>
       </div>
       <div className="readmore ml-10 mb-10">
-        <button type="button" className="border border-gray-700 hover:bg-gray-700 hover:text-gray-200 w-40 h-12 shadow-md rounded-md hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ...">Read More</button>
+        <Link to="/blog/details">
+          {' '}
+          <button
+            type="button"
+            className="border border-gray-700 hover:bg-gray-700
+       hover:text-gray-200 w-40 h-12 shadow-md rounded-md hover:shadow-2xl transition duration-500 ease-in-out
+       transform hover:-translate-y-1 hover:scale-105 ..."
+          >
+            Read More
+          </button>
+        </Link>
       </div>
     </div>
   );
