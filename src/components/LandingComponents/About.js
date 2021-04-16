@@ -51,7 +51,7 @@ function About() {
             {' '}
           </p>
           <p className="mt-10">
-            I hold 5 Years of experience in this field whereas I have contributed, Volunteered and worked with several institions both private and non-governmental organisation. this provided me with a large number of connections so as experience some of those companies are
+            I hold 2 Years of experience in this field whereas I have contributed, Volunteered and worked with several institions both private and non-governmental organisation. this provided me with a large number of connections so as experience some of those companies are
             {' '}
             <a href="https://dalosystems.com/" target="_blank" className="text-blue-500  hover:text-primary-100"> Dalo Systems, </a>
             {' '}
